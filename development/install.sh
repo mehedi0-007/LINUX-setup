@@ -56,3 +56,10 @@ echo
 echo
 echo "[Node.js] Setting up Node.js..."
 "$CONFIG_DIR/development/node.sh"
+echo
+echo "[Docker] Setting up Docker..."
+"$CONFIG_DIR/development/docker.sh"
+
+echo
+echo "[VS Code] Setting up VS Code..."
+"$CONFIG_DIR/development/vscode.sh"
