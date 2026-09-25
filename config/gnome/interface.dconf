@@ -1,0 +1,13 @@
+[/]
+accent-color='blue'
+clock-format='12h'
+clock-show-weekday=true
+color-scheme='prefer-dark'
+cursor-size=20
+cursor-theme='Bibata-Modern-Ice'
+document-font-name='SF Pro weight=509 11 @opsz=17,wght=509'
+font-name='SF Pro weight=509 11 11'
+gtk-enable-primary-paste=true
+gtk-theme='Adwaita-dark'
+icon-theme='WhiteSur'
+text-scaling-factor=0.94999999999999996

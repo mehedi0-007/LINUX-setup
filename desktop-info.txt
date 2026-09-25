@@ -1,0 +1,1715 @@
+=== GNOME ===
+com.canonical.Unity.Lenses always-search ['applications.scope', 'music.scope', 'videos.scope', 'files.scope']
+com.canonical.Unity.Lenses disabled-scopes @as []
+com.canonical.Unity.Lenses hidden-scopes @as []
+com.canonical.Unity.Lenses home-lens-default-view ['applications.scope', 'files.scope']
+com.canonical.Unity.Lenses home-lens-priority ['files.scope', 'music.scope']
+com.canonical.Unity.Lenses locked-scopes @as []
+com.canonical.Unity.Lenses remote-content-search 'none'
+com.canonical.unity.desktop.background draw-background true
+com.canonical.unity.desktop.interface automatic-mnemonics true
+com.canonical.unity.desktop.interface buttons-have-icons false
+com.canonical.unity.desktop.interface menus-have-icons false
+com.canonical.unity.desktop.interface show-input-method-menu true
+com.canonical.unity.desktop.interface show-unicode-menu true
+com.canonical.unity.desktop.screensaver show-notifications false
+com.mattjakeman.ExtensionManager height 600
+com.mattjakeman.ExtensionManager is-maximized false
+com.mattjakeman.ExtensionManager sort-enabled-first false
+com.mattjakeman.ExtensionManager width 800
+com.ubuntu.login-screen background-color ''
+com.ubuntu.login-screen background-picture-uri ''
+com.ubuntu.login-screen background-repeat 'default'
+com.ubuntu.login-screen background-size 'default'
+com.ubuntu.login-screen enable-authd-authentication true
+com.ubuntu.notifications.hub blacklist @a(ss) []
+com.ubuntu.notifications.settings.applications applications @as []
+com.ubuntu.notifications.settings.applications vibrate-silent-mode true
+com.ubuntu.phone default-sim-for-calls 'ask'
+com.ubuntu.phone default-sim-for-messages 'ask'
+com.ubuntu.phone mms-group-chat-enabled false
+com.ubuntu.phone sim-names @a{ss} {}
+com.ubuntu.sound allow-amplified-volume false
+com.ubuntu.touch.network flight-mode false
+com.ubuntu.touch.network gps true
+com.ubuntu.touch.sound incoming-call-sound '/usr/share/sounds/ubuntu/ringtones/Ubuntu.ogg'
+com.ubuntu.touch.sound incoming-message-sound '/usr/share/sounds/ubuntu/notifications/Xylo.ogg'
+com.ubuntu.touch.sound silent-mode false
+com.ubuntu.touch.system activity-timeout uint32 60
+com.ubuntu.touch.system auto-brightness false
+com.ubuntu.touch.system brightness 80
+com.ubuntu.touch.system brightness-needs-hardware-default true
+com.ubuntu.touch.system dim-timeout uint32 45
+com.ubuntu.touch.system fingerprint-names @a{ss} {}
+com.ubuntu.touch.system orientation-lock 'none'
+com.ubuntu.touch.system rotation-lock false
+com.ubuntu.update-manager autoclose-install-window true
+com.ubuntu.update-manager check-dist-upgrades true
+com.ubuntu.update-manager check-new-release-ignore ''
+com.ubuntu.update-manager first-run false
+com.ubuntu.update-manager launch-count 10
+com.ubuntu.update-manager launch-time int64 1790010462
+com.ubuntu.update-manager show-details true
+com.ubuntu.update-manager show-versions false
+com.ubuntu.update-manager summary-before-name true
+com.ubuntu.update-manager window-height 483
+com.ubuntu.update-manager window-width 530
+com.ubuntu.update-notifier end-system-uids 500
+com.ubuntu.update-notifier hide-reboot-notification false
+com.ubuntu.update-notifier no-show-notifications false
+com.ubuntu.update-notifier notify-ubuntu-advantage-available true
+com.ubuntu.update-notifier regular-auto-launch-interval 7
+com.ubuntu.update-notifier release-check-time uint32 1789230126
+com.ubuntu.update-notifier show-apport-crashes true
+com.ubuntu.update-notifier show-livepatch-status-icon true
+com.ubuntu.update-notifier show-updates-status-icon false
+com.ubuntu.user-interface scale-factor @a{si} {}
+com.ubuntu.user-interface.desktop cursor-size 24
+com.ubuntu.user-interface.desktop scaling-factor uint32 0
+com.ubuntu.user-interface.desktop text-scaling-factor 1.0
+net.nokyan.Resources apps-show-combined-memory false
+net.nokyan.Resources apps-show-cpu true
+net.nokyan.Resources apps-show-decoder false
+net.nokyan.Resources apps-show-drive-read-speed false
+net.nokyan.Resources apps-show-drive-read-total false
+net.nokyan.Resources apps-show-drive-write-speed false
+net.nokyan.Resources apps-show-drive-write-total false
+net.nokyan.Resources apps-show-encoder false
+net.nokyan.Resources apps-show-gpu true
+net.nokyan.Resources apps-show-gpu-memory false
+net.nokyan.Resources apps-show-memory true
+net.nokyan.Resources apps-show-swap false
+net.nokyan.Resources apps-sort-by uint32 0
+net.nokyan.Resources apps-sort-by-ascending true
+net.nokyan.Resources base 'Decimal'
+net.nokyan.Resources detailed-priority false
+net.nokyan.Resources graph-data-points uint32 60
+net.nokyan.Resources is-maximized false
+net.nokyan.Resources last-viewed-page 'applications'
+net.nokyan.Resources network-bits false
+net.nokyan.Resources normalize-cpu-usage true
+net.nokyan.Resources processes-show-combined-memory false
+net.nokyan.Resources processes-show-commandline false
+net.nokyan.Resources processes-show-cpu true
+net.nokyan.Resources processes-show-decoder false
+net.nokyan.Resources processes-show-drive-read-speed false
+net.nokyan.Resources processes-show-drive-read-total false
+net.nokyan.Resources processes-show-drive-write-speed false
+net.nokyan.Resources processes-show-drive-write-total false
+net.nokyan.Resources processes-show-encoder false
+net.nokyan.Resources processes-show-gpu true
+net.nokyan.Resources processes-show-gpu-memory false
+net.nokyan.Resources processes-show-id true
+net.nokyan.Resources processes-show-memory true
+net.nokyan.Resources processes-show-priority false
+net.nokyan.Resources processes-show-swap false
+net.nokyan.Resources processes-show-system-cpu-time false
+net.nokyan.Resources processes-show-total-cpu-time false
+net.nokyan.Resources processes-show-user true
+net.nokyan.Resources processes-show-user-cpu-time false
+net.nokyan.Resources processes-sort-by uint32 0
+net.nokyan.Resources processes-sort-by-ascending true
+net.nokyan.Resources refresh-speed 'Fast'
+net.nokyan.Resources show-graph-grids false
+net.nokyan.Resources show-logical-cpus true
+net.nokyan.Resources show-virtual-drives false
+net.nokyan.Resources show-virtual-network-interfaces true
+net.nokyan.Resources sidebar-description false
+net.nokyan.Resources sidebar-details false
+net.nokyan.Resources sidebar-meter-type 'Graph'
+net.nokyan.Resources temperature-unit 'Celsius'
+net.nokyan.Resources window-height 900
+net.nokyan.Resources window-width 1067
+org.freedesktop.ColorHelper display-gamma 2.3999999999999999
+org.freedesktop.ColorHelper display-whitepoint 6500
+org.freedesktop.ColorHelper sample-delay 400
+org.freedesktop.Tracker3.Extract max-bytes 1048576
+org.freedesktop.Tracker3.Extract text-allowlist ['*.txt', '*.md', '*.mdwn']
+org.freedesktop.Tracker3.Extract wait-for-miner-fs false
+org.freedesktop.Tracker3.FTS enable-stemmer false
+org.freedesktop.Tracker3.FTS enable-unaccent true
+org.freedesktop.Tracker3.FTS ignore-numbers true
+org.freedesktop.Tracker3.Miner.Files crawling-interval -1
+org.freedesktop.Tracker3.Miner.Files enable-monitors true
+org.freedesktop.Tracker3.Miner.Files ignored-directories ['po', 'CVS', 'core-dumps', 'lost+found']
+org.freedesktop.Tracker3.Miner.Files ignored-directories-with-content ['.trackerignore', '.git', '.hg', '.nomedia']
+org.freedesktop.Tracker3.Miner.Files ignored-files ['*~', '*.o', '*.la', '*.lo', '*.loT', '*.in', '*.m4', '*.rej', '*.gmo', '*.orig', '*.pc', '*.omf', '*.aux', '*.tmp', '*.vmdk', '*.vm*', '*.nvram', '*.part', '*.rcore', '*.lzo', 'autom4te', 'conftest', 'confstat', 'Makefile', 'SCCS', 'ltmain.sh', 'libtool', 'config.status', 'confdefs.h', 'configure', '#*#', '~$*.doc?', '~$*.dot?', '~$*.xls?', '~$*.xlt?', '~$*.xlam', '~$*.ppt?', '~$*.pot?', '~$*.ppam', '~$*.ppsm', '~$*.ppsx', '~$*.vsd?', '~$*.vss?', '~$*.vst?', '*.directory']
+org.freedesktop.Tracker3.Miner.Files index-on-battery true
+org.freedesktop.Tracker3.Miner.Files index-on-battery-first-time true
+org.freedesktop.Tracker3.Miner.Files index-optical-discs false
+org.freedesktop.Tracker3.Miner.Files index-recursive-directories ['$HOME']
+org.freedesktop.Tracker3.Miner.Files index-removable-devices false
+org.freedesktop.Tracker3.Miner.Files index-single-directories @as []
+org.freedesktop.Tracker3.Miner.Files initial-sleep 15
+org.freedesktop.Tracker3.Miner.Files low-disk-space-limit -1
+org.freedesktop.Tracker3.Miner.Files removable-days-threshold 3
+org.freedesktop.Tracker3.Miner.Files throttle 0
+org.freedesktop.ibus.general dconf-preserve-name-prefixes ['/desktop/ibus/engine/pinyin', '/desktop/ibus/engine/bopomofo', '/desktop/ibus/engine/hangul']
+org.freedesktop.ibus.general embed-preedit-text true
+org.freedesktop.ibus.general enable-by-default false
+org.freedesktop.ibus.general engines-order @as []
+org.freedesktop.ibus.general preload-engines @as []
+org.freedesktop.ibus.general switcher-delay-time 400
+org.freedesktop.ibus.general use-global-engine true
+org.freedesktop.ibus.general use-system-keyboard-layout false
+org.freedesktop.ibus.general use-xmodmap true
+org.freedesktop.ibus.general version ''
+org.freedesktop.ibus.general xkb-latin-layouts ['af', 'af(fa-olpc)', 'af(ps-olpc)', 'af(ps)', 'af(uz)', 'af(uz-olpc)', 'am', 'am(eastern)', 'am(eastern-alt)', 'am(phonetic)', 'am(phonetic-alt)', 'am(western)', 'ara', 'ara(azerty)', 'ara(azerty_digits)', 'ara(buckwalter)', 'ara(digits)', 'ara(qwerty)', 'ara(qwerty_digits)', 'az(cyrillic)', 'bd', 'bd(probhat)', 'bg', 'bg(bas_phonetic)', 'bg(phonetic)', 'brai', 'brai(left_hand)', 'brai(right_hand)', 'bt', 'by', 'by(phonetic)', 'by(legacy)', 'ca(ike)', 'cn(tib)', 'cn(tib_asciinum)', 'cn(ug)', 'cz', 'cz(ucw)', 'de(ru)', 'dev', 'et', 'fr(geo)', 'ge', 'ge(os)', 'gr', 'gr(extended)', 'gr(nodeadkeys)', 'gr(polytonic)', 'gr(simple)', 'gur', 'il', 'il(biblical)', 'il(lyx)', 'il(phonetic)', 'id(melayu-phonetic)', 'id(melayu-phoneticx)', 'id(pegon-phonetic)', 'in', 'in(ben)', 'in(ben_baishakhi)', 'in(ben_bornona)', 'in(ben_gitanjali)', 'in(ben_inscript)', 'in(ben_probhat)', 'in(bolnagri)', 'in(deva)', 'in(guj)', 'in(guj-kagapa)', 'in(guru)', 'in(hin-kagapa)', 'in(hin-wx)', 'in(jhelum)', 'in(kan)', 'in(kan-kagapa)', 'in(mal)', 'in(mal_enhanced)', 'in(mal_lalitha)', 'in(mar-kagapa)', 'in(ori)', 'in(san-kagapa)', 'in(tam)', 'in(tamilnet)', 'in(tamilnet_TAB)', 'in(tamilnet_TSCII)', 'in(tamilnet_tamilnumbers)', 'in(tam_tamilnumbers)', 'in(tel)', 'in(tel-kagapa)', 'in(urd-phonetic)', 'in(urd-phonetic3)', 'in(urd-winkeys)', 'iq', 'ir', 'ir(azb)', 'ir(pes_keypad)', 'jp(kana)', 'jp(mac)', 'kg', 'kg(phonetic)', 'kh', 'kz', 'kz(kazrus)', 'kz(ruskaz)', 'la', 'la(stea)', 'lk', 'lk(tam_TAB)', 'lk(tam_unicode)', 'lv(modern-cyr)', 'ma', 'ma(tifinagh)', 'ma(tifinagh-alt)', 'ma(tifinagh-alt-phonetic)', 'ma(tifinagh-extended)', 'ma(tifinagh-extended-phonetic)', 'ma(tifinagh-phonetic)', 'me(cyrillic)', 'me(cyrillicalternatequotes)', 'me(cyrillicyz)', 'mk', 'mk(nodeadkeys)', 'mm', 'mn', 'mv', 'np', 'ph(capewell-dvorak-bay)', 'ph(capewell-qwerf2k6-bay)', 'ph(colemak-bay)', 'ph(dvorak-bay)', 'ph(qwerty-bay)', 'pk', 'pk(ara)', 'pk(snd)', 'pk(urd-crulp)', 'pk(urd-nla)', 'pl(ru_phonetic_dvorak)', 'rs', 'rs(alternatequotes)', 'rs(rue)', 'rs(yz)', 'ru', 'ru(bak)', 'ru(chm)', 'ru(cv)', 'ru(dos)', 'ru(kom)', 'ru(legacy)', 'ru(mac)', 'ru(os_legacy)', 'ru(os_winkeys)', 'ru(phonetic)', 'ru(phonetic_winkeys)', 'ru(sah)', 'ru(srp)', 'ru(tt)', 'ru(typewriter)', 'ru(typewriter-legacy)', 'ru(udm)', 'ru(xal)', 'se(rus)', 'se(swl)', 'sy', 'sy(syc)', 'sy(syc_phonetic)', 'th', 'th(pat)', 'th(tis)', 'tj', 'tj(legacy)', 'tz', 'ua', 'ua(homophonic)', 'ua(legacy)', 'ua(phonetic)', 'ua(typewriter)', 'ua(winkeys)', 'us(chr)', 'us(rus)', 'uz']
+org.freedesktop.ibus.general.hotkey disable-unconditional @as []
+org.freedesktop.ibus.general.hotkey enable-unconditional @as []
+org.freedesktop.ibus.general.hotkey next-engine ['Alt+Shift_L']
+org.freedesktop.ibus.general.hotkey next-engine-in-menu ['Alt+Shift_L']
+org.freedesktop.ibus.general.hotkey prev-engine @as []
+org.freedesktop.ibus.general.hotkey previous-engine @as []
+org.freedesktop.ibus.general.hotkey trigger ['Control+space', 'Zenkaku_Hankaku', 'Alt+Kanji', 'Alt+grave', 'Hangul', 'Alt+Release+Alt_R']
+org.freedesktop.ibus.general.hotkey triggers ['<Super>space']
+org.freedesktop.ibus.panel auto-hide-timeout 10000
+org.freedesktop.ibus.panel custom-font 'Sans 10'
+org.freedesktop.ibus.panel custom-icon 'Adwaita'
+org.freedesktop.ibus.panel custom-theme 'Adwaita'
+org.freedesktop.ibus.panel follow-input-cursor-when-always-shown false
+org.freedesktop.ibus.panel lookup-table-orientation 1
+org.freedesktop.ibus.panel property-icon-delay-time 500
+org.freedesktop.ibus.panel show 0
+org.freedesktop.ibus.panel show-icon-on-systray true
+org.freedesktop.ibus.panel show-im-name false
+org.freedesktop.ibus.panel use-custom-font false
+org.freedesktop.ibus.panel use-custom-icon false
+org.freedesktop.ibus.panel use-custom-theme false
+org.freedesktop.ibus.panel use-glyph-from-engine-lang true
+org.freedesktop.ibus.panel x -1
+org.freedesktop.ibus.panel xkb-icon-rgba '#51a2da'
+org.freedesktop.ibus.panel y -1
+org.freedesktop.ibus.panel.emoji favorite-annotations @as []
+org.freedesktop.ibus.panel.emoji favorites @as []
+org.freedesktop.ibus.panel.emoji font 'Monospace 16'
+org.freedesktop.ibus.panel.emoji has-partial-match false
+org.freedesktop.ibus.panel.emoji hotkey ['<Super>period', '<Super>semicolon']
+org.freedesktop.ibus.panel.emoji lang 'en'
+org.freedesktop.ibus.panel.emoji load-emoji-at-startup true
+org.freedesktop.ibus.panel.emoji load-unicode-at-startup false
+org.freedesktop.ibus.panel.emoji partial-match-condition 0
+org.freedesktop.ibus.panel.emoji partial-match-length 3
+org.freedesktop.ibus.panel.emoji unicode-hotkey ['<Control><Shift>u']
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.freedesktop.pulseaudio.module-group args0 ''
+org.freedesktop.pulseaudio.module-group args1 ''
+org.freedesktop.pulseaudio.module-group args2 ''
+org.freedesktop.pulseaudio.module-group args3 ''
+org.freedesktop.pulseaudio.module-group args4 ''
+org.freedesktop.pulseaudio.module-group args5 ''
+org.freedesktop.pulseaudio.module-group args6 ''
+org.freedesktop.pulseaudio.module-group args7 ''
+org.freedesktop.pulseaudio.module-group args8 ''
+org.freedesktop.pulseaudio.module-group args9 ''
+org.freedesktop.pulseaudio.module-group enabled false
+org.freedesktop.pulseaudio.module-group locked false
+org.freedesktop.pulseaudio.module-group name ''
+org.freedesktop.pulseaudio.module-group name0 ''
+org.freedesktop.pulseaudio.module-group name1 ''
+org.freedesktop.pulseaudio.module-group name2 ''
+org.freedesktop.pulseaudio.module-group name3 ''
+org.freedesktop.pulseaudio.module-group name4 ''
+org.freedesktop.pulseaudio.module-group name5 ''
+org.freedesktop.pulseaudio.module-group name6 ''
+org.freedesktop.pulseaudio.module-group name7 ''
+org.freedesktop.pulseaudio.module-group name8 ''
+org.freedesktop.pulseaudio.module-group name9 ''
+org.gnome.Characters max-recent-characters uint32 100
+org.gnome.Characters recent-characters @as []
+org.gnome.Disks image-dir-uri ''
+org.gnome.Disks.benchmark do-write true
+org.gnome.Disks.benchmark num-access-samples 1000
+org.gnome.Disks.benchmark num-samples 100
+org.gnome.Disks.benchmark sample-size-mib 10
+org.gnome.Evolution.DefaultSources default-address-book 'system'
+org.gnome.Evolution.DefaultSources default-calendar 'system'
+org.gnome.Evolution.DefaultSources default-mail-account 'system'
+org.gnome.Evolution.DefaultSources default-mail-identity ''
+org.gnome.Evolution.DefaultSources default-memo-list 'system'
+org.gnome.Evolution.DefaultSources default-task-list 'system'
+org.gnome.Extensions window-height 500
+org.gnome.Extensions window-maximized false
+org.gnome.Extensions window-width 800
+org.gnome.GWeather4 default-location ('', 'KNYC', @m(dd) nothing)
+org.gnome.GWeather4 distance-unit 'default'
+org.gnome.GWeather4 pressure-unit 'default'
+org.gnome.GWeather4 speed-unit 'default'
+org.gnome.GWeather4 temperature-unit 'default'
+org.gnome.Logs ignore-warning false
+org.gnome.Logs sort-order 'descending-time'
+org.gnome.Loupe show-properties false
+org.gnome.Papers allow-links-change-zoom true
+org.gnome.Papers document-directory @ms nothing
+org.gnome.Papers night-mode false
+org.gnome.Papers override-restrictions true
+org.gnome.Papers page-cache-size uint32 200
+org.gnome.Papers pictures-directory @ms nothing
+org.gnome.Papers.Default annot-color 'yellow'
+org.gnome.Papers.Default continuous true
+org.gnome.Papers.Default dual-page false
+org.gnome.Papers.Default dual-page-odd-left false
+org.gnome.Papers.Default enable-spellchecking true
+org.gnome.Papers.Default eraser-mode-objects 'true'
+org.gnome.Papers.Default eraser-radius 5.0
+org.gnome.Papers.Default fullscreen false
+org.gnome.Papers.Default highlight-color 'yellow'
+org.gnome.Papers.Default highlight-stroke 2.0
+org.gnome.Papers.Default pen-color 'blue'
+org.gnome.Papers.Default pen-stroke 1.0
+org.gnome.Papers.Default show-sidebar true
+org.gnome.Papers.Default sidebar-page 'links'
+org.gnome.Papers.Default sizing-mode 'free'
+org.gnome.Papers.Default text-color 'blue'
+org.gnome.Papers.Default window-height 1049
+org.gnome.Papers.Default window-maximized true
+org.gnome.Papers.Default window-width 1280
+org.gnome.Papers.Default zoom 0.48964898459383771
+org.gnome.Ptyxis audible-bell true
+org.gnome.Ptyxis cursor-blink-mode 'system'
+org.gnome.Ptyxis cursor-shape 'block'
+org.gnome.Ptyxis default-columns uint32 80
+org.gnome.Ptyxis default-profile-uuid ''
+org.gnome.Ptyxis default-rows uint32 24
+org.gnome.Ptyxis disable-padding false
+org.gnome.Ptyxis enable-a11y true
+org.gnome.Ptyxis enable-zoom-scroll-ctrl true
+org.gnome.Ptyxis font-name 'Monospace 10'
+org.gnome.Ptyxis ignore-osc-title false
+org.gnome.Ptyxis inhibit-logout true
+org.gnome.Ptyxis interface-style 'dark'
+org.gnome.Ptyxis new-tab-position 'last'
+org.gnome.Ptyxis profile-uuids @as []
+org.gnome.Ptyxis prompt-on-close true
+org.gnome.Ptyxis restore-session true
+org.gnome.Ptyxis restore-window-size true
+org.gnome.Ptyxis scrollbar-policy 'system'
+org.gnome.Ptyxis tab-middle-click 'close'
+org.gnome.Ptyxis text-blink-mode 'always'
+org.gnome.Ptyxis toast-on-copy-clipboard true
+org.gnome.Ptyxis use-system-font true
+org.gnome.Ptyxis visual-bell true
+org.gnome.Ptyxis visual-process-leader true
+org.gnome.Ptyxis window-size (uint32 0, uint32 0)
+org.gnome.Ptyxis word-char-exceptions @ms nothing
+org.gnome.Ptyxis.Shortcuts close-other-tabs ''
+org.gnome.Ptyxis.Shortcuts close-tab '<ctrl><shift>w'
+org.gnome.Ptyxis.Shortcuts close-window '<ctrl><shift>q'
+org.gnome.Ptyxis.Shortcuts copy-clipboard '<ctrl><shift>c'
+org.gnome.Ptyxis.Shortcuts detach-tab ''
+org.gnome.Ptyxis.Shortcuts focus-tab-1 '<alt>1'
+org.gnome.Ptyxis.Shortcuts focus-tab-10 '<alt>0'
+org.gnome.Ptyxis.Shortcuts focus-tab-2 '<alt>2'
+org.gnome.Ptyxis.Shortcuts focus-tab-3 '<alt>3'
+org.gnome.Ptyxis.Shortcuts focus-tab-4 '<alt>4'
+org.gnome.Ptyxis.Shortcuts focus-tab-5 '<alt>5'
+org.gnome.Ptyxis.Shortcuts focus-tab-6 '<alt>6'
+org.gnome.Ptyxis.Shortcuts focus-tab-7 '<alt>7'
+org.gnome.Ptyxis.Shortcuts focus-tab-8 '<alt>8'
+org.gnome.Ptyxis.Shortcuts focus-tab-9 '<alt>9'
+org.gnome.Ptyxis.Shortcuts focus-tab-last ''
+org.gnome.Ptyxis.Shortcuts move-next-tab '<ctrl>Page_Down'
+org.gnome.Ptyxis.Shortcuts move-previous-tab '<ctrl>Page_Up'
+org.gnome.Ptyxis.Shortcuts move-tab-left '<ctrl><shift>Page_Up'
+org.gnome.Ptyxis.Shortcuts move-tab-right '<ctrl><shift>Page_Down'
+org.gnome.Ptyxis.Shortcuts new-tab '<ctrl><shift>t'
+org.gnome.Ptyxis.Shortcuts new-window '<ctrl><shift>n'
+org.gnome.Ptyxis.Shortcuts paste-clipboard '<ctrl><shift>v'
+org.gnome.Ptyxis.Shortcuts popup-menu '<shift>F10'
+org.gnome.Ptyxis.Shortcuts preferences '<ctrl>comma'
+org.gnome.Ptyxis.Shortcuts primary-menu 'F10'
+org.gnome.Ptyxis.Shortcuts reset ''
+org.gnome.Ptyxis.Shortcuts reset-and-clear ''
+org.gnome.Ptyxis.Shortcuts search '<ctrl><shift>f'
+org.gnome.Ptyxis.Shortcuts select-all '<ctrl><shift>a'
+org.gnome.Ptyxis.Shortcuts select-none ''
+org.gnome.Ptyxis.Shortcuts set-title ''
+org.gnome.Ptyxis.Shortcuts show-keyboard-shortcuts '<ctrl>question'
+org.gnome.Ptyxis.Shortcuts tab-menu '<alt>comma'
+org.gnome.Ptyxis.Shortcuts tab-overview '<ctrl><shift>o'
+org.gnome.Ptyxis.Shortcuts toggle-fullscreen 'F11'
+org.gnome.Ptyxis.Shortcuts undo-close-tab '<ctrl><shift><alt>t'
+org.gnome.Ptyxis.Shortcuts zoom-in '<ctrl>plus'
+org.gnome.Ptyxis.Shortcuts zoom-one '<ctrl>0'
+org.gnome.Ptyxis.Shortcuts zoom-out '<ctrl>minus'
+org.gnome.SessionManager logout-prompt true
+org.gnome.SessionManager show-fallback-warning true
+org.gnome.Settings last-panel 'network'
+org.gnome.Settings show-development-warning true
+org.gnome.Settings window-state (980, 640, false)
+org.gnome.Terminal.Legacy.Settings always-check-default-terminal true
+org.gnome.Terminal.Legacy.Settings confirm-close true
+org.gnome.Terminal.Legacy.Settings context-info ['numbers']
+org.gnome.Terminal.Legacy.Settings default-show-menubar true
+org.gnome.Terminal.Legacy.Settings headerbar @mb nothing
+org.gnome.Terminal.Legacy.Settings menu-accelerator-enabled true
+org.gnome.Terminal.Legacy.Settings mnemonics-enabled false
+org.gnome.Terminal.Legacy.Settings new-tab-position 'last'
+org.gnome.Terminal.Legacy.Settings new-terminal-mode 'window'
+org.gnome.Terminal.Legacy.Settings schema-version uint32 3
+org.gnome.Terminal.Legacy.Settings shell-integration-enabled true
+org.gnome.Terminal.Legacy.Settings shortcuts-enabled true
+org.gnome.Terminal.Legacy.Settings tab-policy 'automatic'
+org.gnome.Terminal.Legacy.Settings tab-position 'top'
+org.gnome.Terminal.Legacy.Settings theme-variant 'dark'
+org.gnome.Terminal.Legacy.Settings unified-menu false
+org.gnome.Terminal.Legacy.Keybindings close-tab '<Control><Shift>w'
+org.gnome.Terminal.Legacy.Keybindings close-window '<Control><Shift>q'
+org.gnome.Terminal.Legacy.Keybindings copy '<Control><Shift>c'
+org.gnome.Terminal.Legacy.Keybindings copy-html 'disabled'
+org.gnome.Terminal.Legacy.Keybindings detach-tab 'disabled'
+org.gnome.Terminal.Legacy.Keybindings export 'disabled'
+org.gnome.Terminal.Legacy.Keybindings find '<Control><Shift>F'
+org.gnome.Terminal.Legacy.Keybindings find-clear '<Control><Shift>J'
+org.gnome.Terminal.Legacy.Keybindings find-next '<Control><Shift>G'
+org.gnome.Terminal.Legacy.Keybindings find-previous '<Control><Shift>H'
+org.gnome.Terminal.Legacy.Keybindings full-screen 'F11'
+org.gnome.Terminal.Legacy.Keybindings header-menu 'disabled'
+org.gnome.Terminal.Legacy.Keybindings help 'disabled'
+org.gnome.Terminal.Legacy.Keybindings move-tab-left '<Control><Shift>Page_Up'
+org.gnome.Terminal.Legacy.Keybindings move-tab-right '<Control><Shift>Page_Down'
+org.gnome.Terminal.Legacy.Keybindings new-tab '<Control><Shift>t'
+org.gnome.Terminal.Legacy.Keybindings new-window '<Control><Shift>n'
+org.gnome.Terminal.Legacy.Keybindings next-tab '<Control>Page_Down'
+org.gnome.Terminal.Legacy.Keybindings paste '<Control><Shift>v'
+org.gnome.Terminal.Legacy.Keybindings preferences 'disabled'
+org.gnome.Terminal.Legacy.Keybindings prev-tab '<Control>Page_Up'
+org.gnome.Terminal.Legacy.Keybindings print 'disabled'
+org.gnome.Terminal.Legacy.Keybindings read-only 'disabled'
+org.gnome.Terminal.Legacy.Keybindings reset 'disabled'
+org.gnome.Terminal.Legacy.Keybindings reset-and-clear 'disabled'
+org.gnome.Terminal.Legacy.Keybindings save-contents 'disabled'
+org.gnome.Terminal.Legacy.Keybindings select-all 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-1 '<Alt>1'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-10 '<Alt>0'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-11 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-12 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-13 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-14 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-15 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-16 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-17 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-18 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-19 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-2 '<Alt>2'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-20 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-21 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-22 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-23 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-24 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-25 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-26 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-27 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-28 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-29 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-3 '<Alt>3'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-30 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-31 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-32 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-33 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-34 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-35 'disabled'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-4 '<Alt>4'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-5 '<Alt>5'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-6 '<Alt>6'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-7 '<Alt>7'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-8 '<Alt>8'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-9 '<Alt>9'
+org.gnome.Terminal.Legacy.Keybindings switch-to-tab-last 'disabled'
+org.gnome.Terminal.Legacy.Keybindings toggle-menubar 'disabled'
+org.gnome.Terminal.Legacy.Keybindings zoom-in '<Control>plus'
+org.gnome.Terminal.Legacy.Keybindings zoom-normal '<Control>0'
+org.gnome.Terminal.Legacy.Keybindings zoom-out '<Control>minus'
+org.gnome.Terminal.ProfilesList default 'b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+org.gnome.Terminal.ProfilesList list ['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+org.gnome.TextEditor auto-indent true
+org.gnome.TextEditor auto-save-delay uint32 3
+org.gnome.TextEditor custom-font 'Monospace 11'
+org.gnome.TextEditor discover-settings true
+org.gnome.TextEditor draw-spaces @as []
+org.gnome.TextEditor enable-snippets false
+org.gnome.TextEditor highlight-current-line false
+org.gnome.TextEditor highlight-matching-brackets true
+org.gnome.TextEditor indent-style 'tab'
+org.gnome.TextEditor indent-width -1
+org.gnome.TextEditor keybindings 'default'
+org.gnome.TextEditor last-save-directory 'file:///home/mehedi-hassan/Documents'
+org.gnome.TextEditor line-height 1.2
+org.gnome.TextEditor recolor-window true
+org.gnome.TextEditor restore-session true
+org.gnome.TextEditor right-margin-position uint32 80
+org.gnome.TextEditor show-grid false
+org.gnome.TextEditor show-line-numbers false
+org.gnome.TextEditor show-map false
+org.gnome.TextEditor show-right-margin false
+org.gnome.TextEditor spellcheck true
+org.gnome.TextEditor style-scheme 'Adwaita'
+org.gnome.TextEditor style-variant 'follow'
+org.gnome.TextEditor tab-width uint32 8
+org.gnome.TextEditor use-system-font true
+org.gnome.TextEditor wrap-text true
+org.gnome.baobab.preferences excluded-uris @as []
+org.gnome.baobab.ui active-chart 'rings'
+org.gnome.baobab.ui is-maximized false
+org.gnome.baobab.ui window-size (1187, 702)
+org.gnome.calculator accuracy 9
+org.gnome.calculator angle-units 'degrees'
+org.gnome.calculator base 10
+org.gnome.calculator button-mode 'basic'
+org.gnome.calculator currency-display 'name'
+org.gnome.calculator enabled-completions ['builtin', 'function', 'currency', 'favorite', 'variable']
+org.gnome.calculator favorite-currencies @as []
+org.gnome.calculator number-format 'automatic'
+org.gnome.calculator precision 2000
+org.gnome.calculator refresh-interval 604800
+org.gnome.calculator show-thousands false
+org.gnome.calculator show-zeroes false
+org.gnome.calculator source-units ['degree']
+org.gnome.calculator target-units ['radian']
+org.gnome.calculator unit-category 'angle'
+org.gnome.calculator window-maximized false
+org.gnome.calculator window-position (-1, -1)
+org.gnome.calculator window-size (360, 499)
+org.gnome.calculator word-size 64
+org.gnome.clocks alarms @aa{sv} []
+org.gnome.clocks geolocation true
+org.gnome.clocks timers @aa{sv} []
+org.gnome.clocks world-clocks @aa{sv} []
+org.gnome.clocks.state.window maximized false
+org.gnome.clocks.state.window panel-id 'world'
+org.gnome.clocks.state.window size (870, 690)
+org.gnome.crypto.cache gpg-cache-method 'session'
+org.gnome.crypto.cache gpg-cache-ttl 300
+org.gnome.crypto.pgp ascii-armor true
+org.gnome.crypto.pgp default-key ''
+org.gnome.crypto.pgp encrypt-to-self true
+org.gnome.crypto.pgp keyservers ['hkp://keyserver.ubuntu.com:11371', 'ldap://keyserver.pgp.com', 'hkps://keys.openpgp.org']
+org.gnome.crypto.pgp last-signer ''
+org.gnome.crypto.pgp sort-recipients-by 'name'
+org.gnome.desktop.a11y always-show-text-caret false
+org.gnome.desktop.a11y always-show-universal-access-status false
+org.gnome.desktop.a11y.applications screen-keyboard-enabled false
+org.gnome.desktop.a11y.applications screen-magnifier-enabled false
+org.gnome.desktop.a11y.applications screen-reader-enabled false
+org.gnome.desktop.a11y.interface high-contrast false
+org.gnome.desktop.a11y.interface reduced-motion 'no-preference'
+org.gnome.desktop.a11y.interface show-status-shapes false
+org.gnome.desktop.a11y.keyboard bouncekeys-beep-reject false
+org.gnome.desktop.a11y.keyboard bouncekeys-delay 300
+org.gnome.desktop.a11y.keyboard bouncekeys-enable false
+org.gnome.desktop.a11y.keyboard disable-timeout 200
+org.gnome.desktop.a11y.keyboard enable false
+org.gnome.desktop.a11y.keyboard feature-state-change-beep false
+org.gnome.desktop.a11y.keyboard mousekeys-accel-time 300
+org.gnome.desktop.a11y.keyboard mousekeys-enable false
+org.gnome.desktop.a11y.keyboard mousekeys-init-delay 300
+org.gnome.desktop.a11y.keyboard mousekeys-max-speed 10
+org.gnome.desktop.a11y.keyboard slowkeys-beep-accept false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-press false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-reject false
+org.gnome.desktop.a11y.keyboard slowkeys-delay 300
+org.gnome.desktop.a11y.keyboard slowkeys-enable false
+org.gnome.desktop.a11y.keyboard stickykeys-enable false
+org.gnome.desktop.a11y.keyboard stickykeys-modifier-beep false
+org.gnome.desktop.a11y.keyboard stickykeys-two-key-off false
+org.gnome.desktop.a11y.keyboard timeout-enable false
+org.gnome.desktop.a11y.keyboard togglekeys-enable false
+org.gnome.desktop.a11y.magnifier brightness-blue 0.0
+org.gnome.desktop.a11y.magnifier brightness-green 0.0
+org.gnome.desktop.a11y.magnifier brightness-red 0.0
+org.gnome.desktop.a11y.magnifier caret-tracking 'centered'
+org.gnome.desktop.a11y.magnifier color-saturation 1.0
+org.gnome.desktop.a11y.magnifier contrast-blue 0.0
+org.gnome.desktop.a11y.magnifier contrast-green 0.0
+org.gnome.desktop.a11y.magnifier contrast-red 0.0
+org.gnome.desktop.a11y.magnifier cross-hairs-clip false
+org.gnome.desktop.a11y.magnifier cross-hairs-color '#ff0000'
+org.gnome.desktop.a11y.magnifier cross-hairs-length 58
+org.gnome.desktop.a11y.magnifier cross-hairs-opacity 0.66000000000000003
+org.gnome.desktop.a11y.magnifier cross-hairs-thickness 8
+org.gnome.desktop.a11y.magnifier focus-tracking 'proportional'
+org.gnome.desktop.a11y.magnifier invert-lightness false
+org.gnome.desktop.a11y.magnifier lens-mode false
+org.gnome.desktop.a11y.magnifier mag-factor 2.0
+org.gnome.desktop.a11y.magnifier mouse-tracking 'proportional'
+org.gnome.desktop.a11y.magnifier screen-position 'full-screen'
+org.gnome.desktop.a11y.magnifier scroll-at-edges false
+org.gnome.desktop.a11y.magnifier show-cross-hairs false
+org.gnome.desktop.a11y.mouse click-type-window-visible true
+org.gnome.desktop.a11y.mouse dwell-click-enabled false
+org.gnome.desktop.a11y.mouse dwell-gesture-double 'up'
+org.gnome.desktop.a11y.mouse dwell-gesture-drag 'down'
+org.gnome.desktop.a11y.mouse dwell-gesture-secondary 'right'
+org.gnome.desktop.a11y.mouse dwell-gesture-single 'left'
+org.gnome.desktop.a11y.mouse dwell-mode 'window'
+org.gnome.desktop.a11y.mouse dwell-threshold 10
+org.gnome.desktop.a11y.mouse dwell-time 1.2
+org.gnome.desktop.a11y.mouse secondary-click-enabled false
+org.gnome.desktop.a11y.mouse secondary-click-time 1.2
+org.gnome.desktop.app-folders folder-children ['Utilities', 'YaST', 'Pardus']
+org.gnome.desktop.background color-shading-type 'solid'
+org.gnome.desktop.background picture-opacity 100
+org.gnome.desktop.background picture-options 'zoom'
+org.gnome.desktop.background picture-uri 'file:///home/mehedi-hassan/.local/share/backgrounds/2026-07-11-03-01-28-wallpaperflare.com_wallpaper.jpg'
+org.gnome.desktop.background picture-uri-dark 'file:///home/mehedi-hassan/.local/share/backgrounds/2026-07-11-03-01-28-wallpaperflare.com_wallpaper.jpg'
+org.gnome.desktop.background primary-color '#000000000000'
+org.gnome.desktop.background secondary-color '#000000000000'
+org.gnome.desktop.background show-desktop-icons true
+org.gnome.desktop.break-reminders selected-breaks @as []
+org.gnome.desktop.break-reminders.eyesight countdown false
+org.gnome.desktop.break-reminders.eyesight delay-seconds uint32 180
+org.gnome.desktop.break-reminders.eyesight duration-seconds uint32 20
+org.gnome.desktop.break-reminders.eyesight fade-screen true
+org.gnome.desktop.break-reminders.eyesight interval-seconds uint32 1200
+org.gnome.desktop.break-reminders.eyesight lock-screen false
+org.gnome.desktop.break-reminders.eyesight notify true
+org.gnome.desktop.break-reminders.eyesight notify-overdue true
+org.gnome.desktop.break-reminders.eyesight notify-upcoming false
+org.gnome.desktop.break-reminders.eyesight play-sound true
+org.gnome.desktop.break-reminders.movement countdown false
+org.gnome.desktop.break-reminders.movement delay-seconds uint32 180
+org.gnome.desktop.break-reminders.movement duration-seconds uint32 300
+org.gnome.desktop.break-reminders.movement fade-screen true
+org.gnome.desktop.break-reminders.movement interval-seconds uint32 1800
+org.gnome.desktop.break-reminders.movement lock-screen false
+org.gnome.desktop.break-reminders.movement notify true
+org.gnome.desktop.break-reminders.movement notify-overdue true
+org.gnome.desktop.break-reminders.movement notify-upcoming true
+org.gnome.desktop.break-reminders.movement play-sound true
+org.gnome.desktop.calendar show-weekdate false
+org.gnome.desktop.calendar week-start-day 'default'
+org.gnome.desktop.datetime automatic-timezone false
+org.gnome.desktop.default-applications.office.calendar exec 'evolution -c calendar'
+org.gnome.desktop.default-applications.office.calendar needs-term false
+org.gnome.desktop.default-applications.office.tasks exec 'evolution -c tasks'
+org.gnome.desktop.default-applications.office.tasks needs-term false
+org.gnome.desktop.default-applications.terminal exec 'xdg-terminal-exec'
+org.gnome.desktop.default-applications.terminal exec-arg '--'
+org.gnome.desktop.input-sources current uint32 0
+org.gnome.desktop.input-sources mru-sources @a(ss) []
+org.gnome.desktop.input-sources per-window false
+org.gnome.desktop.input-sources show-all-sources false
+org.gnome.desktop.input-sources sources [('xkb', 'us')]
+org.gnome.desktop.input-sources xkb-model 'pc105+inet'
+org.gnome.desktop.input-sources xkb-options @as []
+org.gnome.desktop.interface accent-color 'blue'
+org.gnome.desktop.interface avatar-directories @as []
+org.gnome.desktop.interface can-change-accels false
+org.gnome.desktop.interface clock-format '12h'
+org.gnome.desktop.interface clock-show-date true
+org.gnome.desktop.interface clock-show-seconds false
+org.gnome.desktop.interface clock-show-weekday true
+org.gnome.desktop.interface color-scheme 'prefer-dark'
+org.gnome.desktop.interface cursor-blink true
+org.gnome.desktop.interface cursor-blink-time 1200
+org.gnome.desktop.interface cursor-blink-timeout 10
+org.gnome.desktop.interface cursor-size 20
+org.gnome.desktop.interface cursor-theme 'Bibata-Modern-Ice'
+org.gnome.desktop.interface document-font-name 'SF Pro weight=509 11 @opsz=17,wght=509'
+org.gnome.desktop.interface enable-animations true
+org.gnome.desktop.interface enable-hot-corners false
+org.gnome.desktop.interface font-antialiasing 'rgba'
+org.gnome.desktop.interface font-hinting 'slight'
+org.gnome.desktop.interface font-name 'SF Pro weight=509 11 11'
+org.gnome.desktop.interface font-rendering 'automatic'
+org.gnome.desktop.interface font-rgba-order 'rgb'
+org.gnome.desktop.interface gtk-color-palette 'black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
+org.gnome.desktop.interface gtk-color-scheme ''
+org.gnome.desktop.interface gtk-enable-primary-paste true
+org.gnome.desktop.interface gtk-im-module ''
+org.gnome.desktop.interface gtk-im-preedit-style 'callback'
+org.gnome.desktop.interface gtk-im-status-style 'callback'
+org.gnome.desktop.interface gtk-key-theme 'Default'
+org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+org.gnome.desktop.interface gtk-timeout-initial 200
+org.gnome.desktop.interface gtk-timeout-repeat 20
+org.gnome.desktop.interface icon-theme 'WhiteSur'
+org.gnome.desktop.interface locate-pointer false
+org.gnome.desktop.interface menubar-accel 'F10'
+org.gnome.desktop.interface menubar-detachable false
+org.gnome.desktop.interface menus-have-tearoff false
+org.gnome.desktop.interface monospace-font-name 'Ubuntu Sans Mono 11'
+org.gnome.desktop.interface overlay-scrolling true
+org.gnome.desktop.interface scaling-factor uint32 0
+org.gnome.desktop.interface show-battery-percentage false
+org.gnome.desktop.interface text-scaling-factor 0.94999999999999996
+org.gnome.desktop.interface toolbar-detachable false
+org.gnome.desktop.interface toolbar-icons-size 'large'
+org.gnome.desktop.interface toolbar-style 'both-horiz'
+org.gnome.desktop.interface toolkit-accessibility false
+org.gnome.desktop.lockdown disable-application-handlers false
+org.gnome.desktop.lockdown disable-command-line false
+org.gnome.desktop.lockdown disable-lock-screen false
+org.gnome.desktop.lockdown disable-log-out false
+org.gnome.desktop.lockdown disable-print-setup false
+org.gnome.desktop.lockdown disable-printing false
+org.gnome.desktop.lockdown disable-save-to-disk false
+org.gnome.desktop.lockdown disable-show-password false
+org.gnome.desktop.lockdown disable-user-switching false
+org.gnome.desktop.lockdown mount-removable-storage-devices-as-read-only false
+org.gnome.desktop.lockdown user-administration-disabled false
+org.gnome.desktop.media-handling automount true
+org.gnome.desktop.media-handling automount-open true
+org.gnome.desktop.media-handling autorun-never true
+org.gnome.desktop.media-handling autorun-x-content-ignore @as []
+org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
+org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software', 'x-content/ostree-repository']
+org.gnome.desktop.notifications application-children ['telegram-desktop-telegram-desktop', 'discord', 'brave-browser', 'snapd-desktop-integration-snapd-desktop-integration', 'org-gnome-nautilus', 'code', 'sublime-text', 'winboat', 'com-usebottles-bottles', 'google-chrome', 'com-mattjakeman-extensionmanager', 'org-qbittorrent-qbittorrent', 'org-gnome-baobab', 'com-github-wwmm-easyeffects', 'vlc', 'com-abdownloadmanager', 'org-gnome-software', 'update-manager', 'firefox', 'org-gnome-settings']
+org.gnome.desktop.notifications show-banners false
+org.gnome.desktop.notifications show-in-lock-screen true
+org.gnome.desktop.peripherals.tablet area [0.0, 0.0, 0.0, 0.0]
+org.gnome.desktop.peripherals.tablet keep-aspect false
+org.gnome.desktop.peripherals.tablet left-handed false
+org.gnome.desktop.peripherals.tablet mapping 'absolute'
+org.gnome.desktop.peripherals.tablet output ['', '', '']
+org.gnome.desktop.peripherals.touchscreen output ['', '', '']
+org.gnome.desktop.peripherals.keyboard delay uint32 500
+org.gnome.desktop.peripherals.keyboard numlock-state false
+org.gnome.desktop.peripherals.keyboard remember-numlock-state true
+org.gnome.desktop.peripherals.keyboard repeat true
+org.gnome.desktop.peripherals.keyboard repeat-interval uint32 30
+org.gnome.desktop.peripherals.mouse accel-profile 'default'
+org.gnome.desktop.peripherals.mouse double-click 400
+org.gnome.desktop.peripherals.mouse drag-threshold 8
+org.gnome.desktop.peripherals.mouse left-handed false
+org.gnome.desktop.peripherals.mouse middle-click-emulation false
+org.gnome.desktop.peripherals.mouse natural-scroll false
+org.gnome.desktop.peripherals.mouse speed 0.0
+org.gnome.desktop.peripherals.pointingstick accel-profile 'default'
+org.gnome.desktop.peripherals.pointingstick scroll-method 'default'
+org.gnome.desktop.peripherals.pointingstick speed 0.0
+org.gnome.desktop.peripherals.touchpad accel-profile 'default'
+org.gnome.desktop.peripherals.touchpad click-method 'default'
+org.gnome.desktop.peripherals.touchpad disable-while-typing true
+org.gnome.desktop.peripherals.touchpad disable-while-typing-timeout uint32 500
+org.gnome.desktop.peripherals.touchpad edge-scrolling-enabled false
+org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
+org.gnome.desktop.peripherals.touchpad middle-click-emulation false
+org.gnome.desktop.peripherals.touchpad natural-scroll true
+org.gnome.desktop.peripherals.touchpad send-events 'enabled'
+org.gnome.desktop.peripherals.touchpad speed 0.0
+org.gnome.desktop.peripherals.touchpad tap-and-drag true
+org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
+org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
+org.gnome.desktop.peripherals.touchpad tap-to-click true
+org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
+org.gnome.desktop.peripherals.trackball accel-profile 'default'
+org.gnome.desktop.peripherals.trackball middle-click-emulation false
+org.gnome.desktop.peripherals.trackball scroll-wheel-emulation-button 0
+org.gnome.desktop.peripherals.trackball scroll-wheel-emulation-button-lock false
+org.gnome.desktop.privacy disable-camera false
+org.gnome.desktop.privacy disable-microphone false
+org.gnome.desktop.privacy disable-sound-output false
+org.gnome.desktop.privacy hide-identity false
+org.gnome.desktop.privacy old-files-age uint32 30
+org.gnome.desktop.privacy privacy-screen false
+org.gnome.desktop.privacy recent-files-max-age -1
+org.gnome.desktop.privacy remember-app-usage true
+org.gnome.desktop.privacy remember-recent-files true
+org.gnome.desktop.privacy remove-old-temp-files false
+org.gnome.desktop.privacy remove-old-trash-files false
+org.gnome.desktop.privacy report-technical-problems false
+org.gnome.desktop.privacy send-software-usage-stats false
+org.gnome.desktop.privacy show-full-name-in-top-bar true
+org.gnome.desktop.privacy usb-protection true
+org.gnome.desktop.privacy usb-protection-level 'lockscreen'
+org.gnome.desktop.remote-desktop.rdp auth-methods ['credentials']
+org.gnome.desktop.remote-desktop.rdp enable false
+org.gnome.desktop.remote-desktop.rdp kerberos-keytab ''
+org.gnome.desktop.remote-desktop.rdp negotiate-port true
+org.gnome.desktop.remote-desktop.rdp port uint16 3389
+org.gnome.desktop.remote-desktop.rdp screen-share-mode 'mirror-primary'
+org.gnome.desktop.remote-desktop.rdp tls-cert ''
+org.gnome.desktop.remote-desktop.rdp tls-key ''
+org.gnome.desktop.remote-desktop.rdp view-only true
+org.gnome.desktop.remote-desktop.rdp.headless auth-methods ['credentials']
+org.gnome.desktop.remote-desktop.rdp.headless enable false
+org.gnome.desktop.remote-desktop.rdp.headless kerberos-keytab ''
+org.gnome.desktop.remote-desktop.rdp.headless negotiate-port true
+org.gnome.desktop.remote-desktop.rdp.headless port uint16 3389
+org.gnome.desktop.remote-desktop.vnc auth-method 'prompt'
+org.gnome.desktop.remote-desktop.vnc enable false
+org.gnome.desktop.remote-desktop.vnc negotiate-port false
+org.gnome.desktop.remote-desktop.vnc port uint16 5900
+org.gnome.desktop.remote-desktop.vnc screen-share-mode 'mirror-primary'
+org.gnome.desktop.remote-desktop.vnc view-only true
+org.gnome.desktop.remote-desktop.vnc.headless enable false
+org.gnome.desktop.remote-desktop.vnc.headless negotiate-port false
+org.gnome.desktop.remote-desktop.vnc.headless port uint16 5900
+org.gnome.desktop.screen-time-limits daily-limit-enabled false
+org.gnome.desktop.screen-time-limits daily-limit-seconds uint32 28800
+org.gnome.desktop.screen-time-limits grayscale true
+org.gnome.desktop.screen-time-limits history-enabled true
+org.gnome.desktop.screensaver color-shading-type 'solid'
+org.gnome.desktop.screensaver embedded-keyboard-command ''
+org.gnome.desktop.screensaver embedded-keyboard-enabled false
+org.gnome.desktop.screensaver idle-activation-enabled true
+org.gnome.desktop.screensaver lock-delay uint32 1800
+org.gnome.desktop.screensaver lock-enabled true
+org.gnome.desktop.screensaver logout-command ''
+org.gnome.desktop.screensaver logout-delay uint32 7200
+org.gnome.desktop.screensaver logout-enabled false
+org.gnome.desktop.screensaver picture-opacity 100
+org.gnome.desktop.screensaver picture-options 'zoom'
+org.gnome.desktop.screensaver picture-uri 'file:///home/mehedi-hassan/.local/share/backgrounds/2026-07-11-03-01-28-wallpaperflare.com_wallpaper.jpg'
+org.gnome.desktop.screensaver primary-color '#000000000000'
+org.gnome.desktop.screensaver restart-enabled false
+org.gnome.desktop.screensaver secondary-color '#000000000000'
+org.gnome.desktop.screensaver show-full-name-in-top-bar true
+org.gnome.desktop.screensaver status-message-enabled true
+org.gnome.desktop.screensaver ubuntu-lock-on-suspend true
+org.gnome.desktop.screensaver user-switch-enabled true
+org.gnome.desktop.search-providers disable-external false
+org.gnome.desktop.search-providers disabled @as []
+org.gnome.desktop.search-providers enabled @as []
+org.gnome.desktop.search-providers sort-order ['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
+org.gnome.desktop.session idle-delay uint32 600
+org.gnome.desktop.session save-restore true
+org.gnome.desktop.session session-name 'ubuntu'
+org.gnome.desktop.sound allow-volume-above-100-percent false
+org.gnome.desktop.sound event-sounds false
+org.gnome.desktop.sound input-feedback-sounds true
+org.gnome.desktop.sound theme-name 'Yaru'
+org.gnome.desktop.thumbnail-cache maximum-age 180
+org.gnome.desktop.thumbnail-cache maximum-size 512
+org.gnome.desktop.thumbnailers disable @as []
+org.gnome.desktop.thumbnailers disable-all false
+org.gnome.desktop.wm.keybindings activate-window-menu ['<Alt>space']
+org.gnome.desktop.wm.keybindings always-on-top @as []
+org.gnome.desktop.wm.keybindings begin-move ['<Alt>F7']
+org.gnome.desktop.wm.keybindings begin-resize ['<Alt>F8']
+org.gnome.desktop.wm.keybindings close ['<Alt>F4']
+org.gnome.desktop.wm.keybindings cycle-group ['<Alt>F6']
+org.gnome.desktop.wm.keybindings cycle-group-backward ['<Shift><Alt>F6']
+org.gnome.desktop.wm.keybindings cycle-panels ['<Control><Alt>Escape']
+org.gnome.desktop.wm.keybindings cycle-panels-backward ['<Shift><Control><Alt>Escape']
+org.gnome.desktop.wm.keybindings cycle-windows ['<Alt>Escape']
+org.gnome.desktop.wm.keybindings cycle-windows-backward ['<Shift><Alt>Escape']
+org.gnome.desktop.wm.keybindings lower @as []
+org.gnome.desktop.wm.keybindings maximize @as []
+org.gnome.desktop.wm.keybindings maximize-horizontally @as []
+org.gnome.desktop.wm.keybindings maximize-vertically @as []
+org.gnome.desktop.wm.keybindings minimize ['<Super>h']
+org.gnome.desktop.wm.keybindings move-to-center @as []
+org.gnome.desktop.wm.keybindings move-to-corner-ne @as []
+org.gnome.desktop.wm.keybindings move-to-corner-nw @as []
+org.gnome.desktop.wm.keybindings move-to-corner-se @as []
+org.gnome.desktop.wm.keybindings move-to-corner-sw @as []
+org.gnome.desktop.wm.keybindings move-to-monitor-down ['<Super><Shift>Down']
+org.gnome.desktop.wm.keybindings move-to-monitor-left ['<Super><Shift>Left']
+org.gnome.desktop.wm.keybindings move-to-monitor-right ['<Super><Shift>Right']
+org.gnome.desktop.wm.keybindings move-to-monitor-up ['<Super><Shift>Up']
+org.gnome.desktop.wm.keybindings move-to-side-e @as []
+org.gnome.desktop.wm.keybindings move-to-side-n @as []
+org.gnome.desktop.wm.keybindings move-to-side-s @as []
+org.gnome.desktop.wm.keybindings move-to-side-w @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-1 ['<Super><Shift>Home']
+org.gnome.desktop.wm.keybindings move-to-workspace-10 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-11 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-12 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-2 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-3 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-4 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-5 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-6 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-7 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-8 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-9 @as []
+org.gnome.desktop.wm.keybindings move-to-workspace-down ['<Control><Shift><Alt>Down']
+org.gnome.desktop.wm.keybindings move-to-workspace-last ['<Super><Shift>End']
+org.gnome.desktop.wm.keybindings move-to-workspace-left ['<Super><Shift>Page_Up', '<Super><Shift>KP_Prior', '<Super><Shift><Alt>Left', '<Control><Shift><Alt>Left']
+org.gnome.desktop.wm.keybindings move-to-workspace-right ['<Super><Shift>Page_Down', '<Super><Shift>KP_Next', '<Super><Shift><Alt>Right', '<Control><Shift><Alt>Right']
+org.gnome.desktop.wm.keybindings move-to-workspace-up ['<Control><Shift><Alt>Up']
+org.gnome.desktop.wm.keybindings panel-main-menu @as []
+org.gnome.desktop.wm.keybindings panel-run-dialog ['<Alt>F2']
+org.gnome.desktop.wm.keybindings raise @as []
+org.gnome.desktop.wm.keybindings raise-or-lower @as []
+org.gnome.desktop.wm.keybindings set-spew-mark @as []
+org.gnome.desktop.wm.keybindings show-desktop ['<Primary><Super>d', '<Primary><Alt>d', '<Super>d']
+org.gnome.desktop.wm.keybindings switch-applications ['<Super>Tab']
+org.gnome.desktop.wm.keybindings switch-applications-backward ['<Shift><Super>Tab']
+org.gnome.desktop.wm.keybindings switch-group ['<Super>Above_Tab', '<Alt>Above_Tab']
+org.gnome.desktop.wm.keybindings switch-group-backward ['<Shift><Super>Above_Tab', '<Shift><Alt>Above_Tab']
+org.gnome.desktop.wm.keybindings switch-input-source ['<Super>space', 'XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-input-source-backward ['<Shift><Super>space', '<Shift>XF86Keyboard']
+org.gnome.desktop.wm.keybindings switch-panels ['<Control><Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-panels-backward ['<Shift><Control><Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-to-workspace-1 ['<Super>Home']
+org.gnome.desktop.wm.keybindings switch-to-workspace-10 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-11 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-12 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-2 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-3 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-4 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-5 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-6 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-7 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-8 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-9 @as []
+org.gnome.desktop.wm.keybindings switch-to-workspace-down ['<Control><Alt>Down']
+org.gnome.desktop.wm.keybindings switch-to-workspace-last ['<Super>End']
+org.gnome.desktop.wm.keybindings switch-to-workspace-left ['<Super>Page_Up', '<Super>KP_Prior', '<Super><Alt>Left', '<Control><Alt>Left']
+org.gnome.desktop.wm.keybindings switch-to-workspace-right ['<Super>Page_Down', '<Super>KP_Next', '<Super><Alt>Right', '<Control><Alt>Right']
+org.gnome.desktop.wm.keybindings switch-to-workspace-up ['<Control><Alt>Up']
+org.gnome.desktop.wm.keybindings switch-windows ['<Alt>Tab']
+org.gnome.desktop.wm.keybindings switch-windows-backward ['<Shift><Alt>Tab']
+org.gnome.desktop.wm.keybindings toggle-above @as []
+org.gnome.desktop.wm.keybindings toggle-fullscreen @as []
+org.gnome.desktop.wm.keybindings toggle-maximized ['<Alt>F10']
+org.gnome.desktop.wm.keybindings toggle-on-all-workspaces @as []
+org.gnome.desktop.wm.keybindings unmaximize @as []
+org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
+org.gnome.desktop.wm.preferences action-middle-click-titlebar 'lower'
+org.gnome.desktop.wm.preferences action-right-click-titlebar 'menu'
+org.gnome.desktop.wm.preferences audible-bell true
+org.gnome.desktop.wm.preferences auto-raise false
+org.gnome.desktop.wm.preferences auto-raise-delay 500
+org.gnome.desktop.wm.preferences button-layout ':minimize,maximize,close'
+org.gnome.desktop.wm.preferences disable-workarounds false
+org.gnome.desktop.wm.preferences focus-mode 'click'
+org.gnome.desktop.wm.preferences focus-new-windows 'smart'
+org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'
+org.gnome.desktop.wm.preferences num-workspaces 4
+org.gnome.desktop.wm.preferences raise-on-click true
+org.gnome.desktop.wm.preferences resize-with-right-button false
+org.gnome.desktop.wm.preferences theme 'Adwaita'
+org.gnome.desktop.wm.preferences titlebar-font 'Ubuntu Sans Bold 11'
+org.gnome.desktop.wm.preferences titlebar-uses-system-font false
+org.gnome.desktop.wm.preferences visual-bell false
+org.gnome.desktop.wm.preferences visual-bell-type 'fullscreen-flash'
+org.gnome.desktop.wm.preferences workspace-names @as []
+org.gnome.evolution-data-server autoconfig-directory ''
+org.gnome.evolution-data-server autoconfig-variables ['']
+org.gnome.evolution-data-server camel-cipher-load-photos true
+org.gnome.evolution-data-server camel-gpg-binary ''
+org.gnome.evolution-data-server camel-message-info-user-headers @as []
+org.gnome.evolution-data-server camel-smtp-helo-argument ''
+org.gnome.evolution-data-server limit-operations-in-power-saver-mode false
+org.gnome.evolution-data-server migrated true
+org.gnome.evolution-data-server network-monitor-gio-name ''
+org.gnome.evolution-data-server oauth2-google-client-id ''
+org.gnome.evolution-data-server oauth2-google-client-secret ''
+org.gnome.evolution-data-server oauth2-outlook-client-id ''
+org.gnome.evolution-data-server oauth2-outlook-client-secret ''
+org.gnome.evolution-data-server oauth2-services-hint ['']
+org.gnome.evolution-data-server oauth2-yahoo-client-id ''
+org.gnome.evolution-data-server oauth2-yahoo-client-secret ''
+org.gnome.evolution-data-server.addressbook self-contact-uid ''
+org.gnome.evolution-data-server.calendar contacts-reminder-enabled false
+org.gnome.evolution-data-server.calendar contacts-reminder-interval 15
+org.gnome.evolution-data-server.calendar contacts-reminder-units 'minutes'
+org.gnome.evolution-data-server.calendar defall-reminder-enabled false
+org.gnome.evolution-data-server.calendar defall-reminder-interval 15
+org.gnome.evolution-data-server.calendar defall-reminder-units 'minutes'
+org.gnome.evolution-data-server.calendar delete-meeting-on-decline true
+org.gnome.evolution-data-server.calendar notify-completed-tasks true
+org.gnome.evolution-data-server.calendar notify-custom-snooze-minutes @ai []
+org.gnome.evolution-data-server.calendar notify-enable-audio true
+org.gnome.evolution-data-server.calendar notify-enable-display true
+org.gnome.evolution-data-server.calendar notify-last-snooze-minutes 5
+org.gnome.evolution-data-server.calendar notify-past-events false
+org.gnome.evolution-data-server.calendar notify-programs @as []
+org.gnome.evolution-data-server.calendar notify-window-height -1
+org.gnome.evolution-data-server.calendar notify-window-on-top true
+org.gnome.evolution-data-server.calendar notify-window-paned-position -1
+org.gnome.evolution-data-server.calendar notify-window-width -1
+org.gnome.evolution-data-server.calendar notify-window-x -1
+org.gnome.evolution-data-server.calendar notify-window-y -1
+org.gnome.evolution-data-server.calendar notify-with-tray true
+org.gnome.evolution-data-server.calendar reminders-past ['']
+org.gnome.evolution-data-server.calendar reminders-past-days 7
+org.gnome.evolution-data-server.calendar reminders-snoozed ['']
+org.gnome.evolution.eds-shell start-offline false
+org.gnome.evolution.shell.network-config authentication-password ''
+org.gnome.evolution.shell.network-config authentication-user ''
+org.gnome.evolution.shell.network-config autoconfig-url ''
+org.gnome.evolution.shell.network-config http-host ''
+org.gnome.evolution.shell.network-config http-port 0
+org.gnome.evolution.shell.network-config ignore-hosts @as []
+org.gnome.evolution.shell.network-config proxy-type 0
+org.gnome.evolution.shell.network-config secure-host ''
+org.gnome.evolution.shell.network-config secure-port 0
+org.gnome.evolution.shell.network-config socks-host ''
+org.gnome.evolution.shell.network-config socks-port 0
+org.gnome.evolution.shell.network-config use-authentication false
+org.gnome.evolution.shell.network-config use-http-proxy false
+org.gnome.login-screen allowed-failures 3
+org.gnome.login-screen banner-message-enable false
+org.gnome.login-screen banner-message-path ''
+org.gnome.login-screen banner-message-source 'settings'
+org.gnome.login-screen banner-message-text ''
+org.gnome.login-screen disable-restart-buttons false
+org.gnome.login-screen disable-user-list false
+org.gnome.login-screen enable-fingerprint-authentication true
+org.gnome.login-screen enable-passkey-authentication true
+org.gnome.login-screen enable-password-authentication true
+org.gnome.login-screen enable-smartcard-authentication true
+org.gnome.login-screen enable-switchable-authentication true
+org.gnome.login-screen enable-web-authentication true
+org.gnome.login-screen fallback-logo ''
+org.gnome.login-screen logo '/usr/share/pixmaps/ubuntu-logo-text-dark.svg'
+org.gnome.mutter attach-modal-dialogs true
+org.gnome.mutter auto-maximize true
+org.gnome.mutter center-new-windows true
+org.gnome.mutter check-alive-timeout uint32 5000
+org.gnome.mutter draggable-border-width 10
+org.gnome.mutter dynamic-workspaces true
+org.gnome.mutter edge-tiling false
+org.gnome.mutter experimental-features ['scale-monitor-framebuffer']
+org.gnome.mutter focus-change-on-pointer-rest true
+org.gnome.mutter locate-pointer-key 'Control_L'
+org.gnome.mutter output-luminance @a(ssssud) []
+org.gnome.mutter overlay-key 'Super'
+org.gnome.mutter workspaces-only-on-primary true
+org.gnome.mutter.devkit launchers [('desktop', 'org.gnome.Ptyxis', 'new-window')]
+org.gnome.mutter.keybindings cancel-input-capture ['<Super><Shift>Escape']
+org.gnome.mutter.keybindings rotate-monitor ['XF86RotateWindows']
+org.gnome.mutter.keybindings switch-monitor ['<Super>p', 'XF86Display']
+org.gnome.mutter.keybindings toggle-tiled-left @as []
+org.gnome.mutter.keybindings toggle-tiled-right @as []
+org.gnome.mutter.wayland xwayland-allow-byte-swapped-clients false
+org.gnome.mutter.wayland xwayland-allow-grabs false
+org.gnome.mutter.wayland xwayland-disable-extension @as []
+org.gnome.mutter.wayland xwayland-grab-access-rules @as []
+org.gnome.mutter.wayland xwayland-scaling-factor 0.0
+org.gnome.mutter.wayland.keybindings restore-shortcuts ['<Super>Escape']
+org.gnome.mutter.wayland.keybindings switch-to-session-1 ['<Primary><Alt>F1']
+org.gnome.mutter.wayland.keybindings switch-to-session-10 ['<Primary><Alt>F10']
+org.gnome.mutter.wayland.keybindings switch-to-session-11 ['<Primary><Alt>F11']
+org.gnome.mutter.wayland.keybindings switch-to-session-12 ['<Primary><Alt>F12']
+org.gnome.mutter.wayland.keybindings switch-to-session-2 ['<Primary><Alt>F2']
+org.gnome.mutter.wayland.keybindings switch-to-session-3 ['<Primary><Alt>F3']
+org.gnome.mutter.wayland.keybindings switch-to-session-4 ['<Primary><Alt>F4']
+org.gnome.mutter.wayland.keybindings switch-to-session-5 ['<Primary><Alt>F5']
+org.gnome.mutter.wayland.keybindings switch-to-session-6 ['<Primary><Alt>F6']
+org.gnome.mutter.wayland.keybindings switch-to-session-7 ['<Primary><Alt>F7']
+org.gnome.mutter.wayland.keybindings switch-to-session-8 ['<Primary><Alt>F8']
+org.gnome.mutter.wayland.keybindings switch-to-session-9 ['<Primary><Alt>F9']
+org.gnome.nautilus.compression default-compression-format 'zip'
+org.gnome.nautilus.icon-view captions ['none', 'none', 'none']
+org.gnome.nautilus.icon-view default-zoom-level 'medium'
+org.gnome.nautilus.list-view default-column-order ['name', 'size', 'type', 'owner', 'group', 'permissions', 'mime_type', 'where', 'date_modified', 'date_modified_with_time', 'date_accessed', 'date_created', 'recency', 'starred']
+org.gnome.nautilus.list-view default-visible-columns ['name', 'size', 'date_modified']
+org.gnome.nautilus.list-view default-zoom-level 'medium'
+org.gnome.nautilus.list-view use-tree-view false
+org.gnome.nautilus.preferences always-use-location-entry false
+org.gnome.nautilus.preferences click-policy 'double'
+org.gnome.nautilus.preferences date-time-format 'simple'
+org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences default-sort-in-reverse-order false
+org.gnome.nautilus.preferences default-sort-order 'name'
+org.gnome.nautilus.preferences fts-enabled true
+org.gnome.nautilus.preferences migrated-gtk-settings true
+org.gnome.nautilus.preferences mouse-back-button uint32 8
+org.gnome.nautilus.preferences mouse-forward-button uint32 9
+org.gnome.nautilus.preferences mouse-use-extra-buttons true
+org.gnome.nautilus.preferences open-folder-on-dnd-hover false
+org.gnome.nautilus.preferences recursive-search 'local-only'
+org.gnome.nautilus.preferences search-filter-time-type 'last_modified'
+org.gnome.nautilus.preferences show-create-link false
+org.gnome.nautilus.preferences show-delete-permanently false
+org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
+org.gnome.nautilus.preferences show-hidden-files false
+org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
+org.gnome.nautilus.preferences thumbnail-limit uint64 50
+org.gnome.nautilus.window-state initial-size (890, 550)
+org.gnome.nautilus.window-state initial-size-file-chooser (890, 550)
+org.gnome.nautilus.window-state maximized true
+org.gnome.portal.filechooser last-folder-path ''
+org.gnome.seahorse last-search-servers @as []
+org.gnome.seahorse last-search-text ''
+org.gnome.seahorse server-auto-publish false
+org.gnome.seahorse server-auto-retrieve false
+org.gnome.seahorse server-publish-to ''
+org.gnome.seahorse.manager item-filter 'personal'
+org.gnome.seahorse.manager keyrings-selected ['secret-service://login']
+org.gnome.seahorse.manager show-expiry false
+org.gnome.seahorse.manager show-trust false
+org.gnome.seahorse.manager show-type false
+org.gnome.seahorse.manager show-validity false
+org.gnome.seahorse.manager sidebar-visible true
+org.gnome.seahorse.manager sidebar-width 148
+org.gnome.seahorse.manager sort-by 'name'
+org.gnome.settings-daemon.global-shortcuts applications @as []
+org.gnome.settings-daemon.peripherals.smartcard removal-action 'none'
+org.gnome.settings-daemon.peripherals.touchscreen orientation-lock false
+org.gnome.settings-daemon.plugins whitelisted-plugins ['all']
+org.gnome.settings-daemon.plugins.color night-light-enabled false
+org.gnome.settings-daemon.plugins.color night-light-last-coordinates (91.0, 181.0)
+org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
+org.gnome.settings-daemon.plugins.color night-light-schedule-from 20.0
+org.gnome.settings-daemon.plugins.color night-light-schedule-to 6.0
+org.gnome.settings-daemon.plugins.color night-light-temperature uint32 2700
+org.gnome.settings-daemon.plugins.color recalibrate-display-threshold uint32 0
+org.gnome.settings-daemon.plugins.color recalibrate-printer-threshold uint32 0
+org.gnome.settings-daemon.plugins.housekeeping donation-reminder-enabled false
+org.gnome.settings-daemon.plugins.housekeeping donation-reminder-last-shown int64 0
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify 0.050000000000000003
+org.gnome.settings-daemon.plugins.housekeeping free-percent-notify-again 0.01
+org.gnome.settings-daemon.plugins.housekeeping free-size-gb-no-notify 1
+org.gnome.settings-daemon.plugins.housekeeping ignore-paths @as []
+org.gnome.settings-daemon.plugins.housekeeping min-notify-period 10
+org.gnome.settings-daemon.plugins.media-keys battery-status ['']
+org.gnome.settings-daemon.plugins.media-keys battery-status-static ['XF86Battery']
+org.gnome.settings-daemon.plugins.media-keys calculator ['']
+org.gnome.settings-daemon.plugins.media-keys calculator-static ['XF86Calculator']
+org.gnome.settings-daemon.plugins.media-keys control-center ['']
+org.gnome.settings-daemon.plugins.media-keys control-center-static ['XF86Tools']
+org.gnome.settings-daemon.plugins.media-keys custom-keybindings @as []
+org.gnome.settings-daemon.plugins.media-keys decrease-text-size ['']
+org.gnome.settings-daemon.plugins.media-keys eject ['']
+org.gnome.settings-daemon.plugins.media-keys eject-static ['XF86Eject']
+org.gnome.settings-daemon.plugins.media-keys email ['']
+org.gnome.settings-daemon.plugins.media-keys email-static ['XF86Mail']
+org.gnome.settings-daemon.plugins.media-keys help ['', '<Super>F1']
+org.gnome.settings-daemon.plugins.media-keys hibernate ['']
+org.gnome.settings-daemon.plugins.media-keys hibernate-static ['XF86Suspend', 'XF86Hibernate']
+org.gnome.settings-daemon.plugins.media-keys home ['']
+org.gnome.settings-daemon.plugins.media-keys home-static ['XF86Explorer']
+org.gnome.settings-daemon.plugins.media-keys increase-text-size ['']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down ['']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down-static ['XF86KbdBrightnessDown']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle ['']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle-static ['XF86KbdLightOnOff']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up ['']
+org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up-static ['XF86KbdBrightnessUp']
+org.gnome.settings-daemon.plugins.media-keys logout ['<Control><Alt>Delete']
+org.gnome.settings-daemon.plugins.media-keys magnifier ['<Alt><Super>8']
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-in ['<Alt><Super>equal']
+org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-out ['<Alt><Super>minus']
+org.gnome.settings-daemon.plugins.media-keys media ['']
+org.gnome.settings-daemon.plugins.media-keys media-static ['XF86AudioMedia']
+org.gnome.settings-daemon.plugins.media-keys mic-mute ['']
+org.gnome.settings-daemon.plugins.media-keys mic-mute-static ['XF86AudioMicMute']
+org.gnome.settings-daemon.plugins.media-keys next ['']
+org.gnome.settings-daemon.plugins.media-keys next-static ['XF86AudioNext', '<Ctrl>XF86AudioNext']
+org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ['']
+org.gnome.settings-daemon.plugins.media-keys pause ['']
+org.gnome.settings-daemon.plugins.media-keys pause-static ['XF86AudioPause']
+org.gnome.settings-daemon.plugins.media-keys play ['']
+org.gnome.settings-daemon.plugins.media-keys play-static ['XF86AudioPlay', '<Ctrl>XF86AudioPlay']
+org.gnome.settings-daemon.plugins.media-keys playback-forward ['']
+org.gnome.settings-daemon.plugins.media-keys playback-forward-static ['XF86AudioForward']
+org.gnome.settings-daemon.plugins.media-keys playback-random ['']
+org.gnome.settings-daemon.plugins.media-keys playback-random-static ['XF86AudioRandomPlay']
+org.gnome.settings-daemon.plugins.media-keys playback-repeat ['']
+org.gnome.settings-daemon.plugins.media-keys playback-repeat-static ['XF86AudioRepeat']
+org.gnome.settings-daemon.plugins.media-keys playback-rewind ['']
+org.gnome.settings-daemon.plugins.media-keys playback-rewind-static ['XF86AudioRewind']
+org.gnome.settings-daemon.plugins.media-keys power ['']
+org.gnome.settings-daemon.plugins.media-keys power-static ['XF86PowerOff']
+org.gnome.settings-daemon.plugins.media-keys previous ['']
+org.gnome.settings-daemon.plugins.media-keys previous-static ['XF86AudioPrev', '<Ctrl>XF86AudioPrev']
+org.gnome.settings-daemon.plugins.media-keys reboot ['']
+org.gnome.settings-daemon.plugins.media-keys rfkill ['']
+org.gnome.settings-daemon.plugins.media-keys rfkill-bluetooth ['']
+org.gnome.settings-daemon.plugins.media-keys rfkill-bluetooth-static ['XF86Bluetooth']
+org.gnome.settings-daemon.plugins.media-keys rfkill-static ['XF86WLAN', 'XF86UWB', 'XF86RFKill']
+org.gnome.settings-daemon.plugins.media-keys rotate-video-lock ['']
+org.gnome.settings-daemon.plugins.media-keys rotate-video-lock-static ['<Super>o', 'XF86RotationLockToggle']
+org.gnome.settings-daemon.plugins.media-keys screenreader ['<Alt><Super>s']
+org.gnome.settings-daemon.plugins.media-keys screensaver ['<Super>l']
+org.gnome.settings-daemon.plugins.media-keys screensaver-static ['XF86ScreenSaver']
+org.gnome.settings-daemon.plugins.media-keys search ['']
+org.gnome.settings-daemon.plugins.media-keys search-static ['XF86Search']
+org.gnome.settings-daemon.plugins.media-keys shutdown ['']
+org.gnome.settings-daemon.plugins.media-keys stop ['']
+org.gnome.settings-daemon.plugins.media-keys stop-static ['XF86AudioStop']
+org.gnome.settings-daemon.plugins.media-keys suspend ['']
+org.gnome.settings-daemon.plugins.media-keys suspend-static ['XF86Sleep']
+org.gnome.settings-daemon.plugins.media-keys terminal ['<Primary><Alt>t']
+org.gnome.settings-daemon.plugins.media-keys toggle-contrast ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-off ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-off-static ['XF86TouchpadOff']
+org.gnome.settings-daemon.plugins.media-keys touchpad-on ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-on-static ['XF86TouchpadOn']
+org.gnome.settings-daemon.plugins.media-keys touchpad-toggle ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-toggle-static ['XF86TouchpadToggle', '<Ctrl><Super>XF86TouchpadToggle']
+org.gnome.settings-daemon.plugins.media-keys volume-down ['']
+org.gnome.settings-daemon.plugins.media-keys volume-down-precise ['']
+org.gnome.settings-daemon.plugins.media-keys volume-down-precise-static ['<Shift>XF86AudioLowerVolume', '<Ctrl><Shift>XF86AudioLowerVolume']
+org.gnome.settings-daemon.plugins.media-keys volume-down-quiet ['']
+org.gnome.settings-daemon.plugins.media-keys volume-down-quiet-static ['<Alt>XF86AudioLowerVolume', '<Alt><Ctrl>XF86AudioLowerVolume']
+org.gnome.settings-daemon.plugins.media-keys volume-down-static ['XF86AudioLowerVolume', '<Ctrl>XF86AudioLowerVolume']
+org.gnome.settings-daemon.plugins.media-keys volume-mute ['']
+org.gnome.settings-daemon.plugins.media-keys volume-mute-quiet ['']
+org.gnome.settings-daemon.plugins.media-keys volume-mute-quiet-static ['<Alt>XF86AudioMute']
+org.gnome.settings-daemon.plugins.media-keys volume-mute-static ['XF86AudioMute']
+org.gnome.settings-daemon.plugins.media-keys volume-step 6
+org.gnome.settings-daemon.plugins.media-keys volume-up ['']
+org.gnome.settings-daemon.plugins.media-keys volume-up-precise ['']
+org.gnome.settings-daemon.plugins.media-keys volume-up-precise-static ['<Shift>XF86AudioRaiseVolume', '<Ctrl><Shift>XF86AudioRaiseVolume']
+org.gnome.settings-daemon.plugins.media-keys volume-up-quiet ['']
+org.gnome.settings-daemon.plugins.media-keys volume-up-quiet-static ['<Alt>XF86AudioRaiseVolume', '<Alt><Ctrl>XF86AudioRaiseVolume']
+org.gnome.settings-daemon.plugins.media-keys volume-up-static ['XF86AudioRaiseVolume', '<Ctrl>XF86AudioRaiseVolume']
+org.gnome.settings-daemon.plugins.media-keys www ['']
+org.gnome.settings-daemon.plugins.media-keys www-static ['XF86WWW']
+org.gnome.settings-daemon.plugins.power ambient-enabled true
+org.gnome.settings-daemon.plugins.power idle-brightness 30
+org.gnome.settings-daemon.plugins.power idle-dim true
+org.gnome.settings-daemon.plugins.power lid-close-ac-action 'suspend'
+org.gnome.settings-daemon.plugins.power lid-close-battery-action 'suspend'
+org.gnome.settings-daemon.plugins.power lid-close-suspend-with-external-monitor false
+org.gnome.settings-daemon.plugins.power power-button-action 'interactive'
+org.gnome.settings-daemon.plugins.power power-saver-profile-on-low-battery true
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 3600
+org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 900
+org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend'
+org.gnome.settings-daemon.plugins.wwan unlock-sim false
+org.gnome.settings-daemon.plugins.xsettings disabled-gtk-modules @as []
+org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
+org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
+org.gnome.shell allow-extension-installation true
+org.gnome.shell always-show-log-out true
+org.gnome.shell app-picker-layout [{'snap-store_snap-store.desktop': <{'position': <0>}>, 'ddcui.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <3>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <4>}>, 'gparted.desktop': <{'position': <5>}>, 'org.gnome.Characters.desktop': <{'position': <6>}>, 'org.gnome.Calculator.desktop': <{'position': <7>}>, 'org.gnome.Papers.desktop': <{'position': <8>}>, 'gnome-language-selector.desktop': <{'position': <9>}>, 'org.gnome.Settings.desktop': <{'position': <10>}>, 'org.gnome.font-viewer.desktop': <{'position': <11>}>, 'io.github.realmazharhussain.GdmSettings.desktop': <{'position': <12>}>, 'org.gnome.Software.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'org.gnome.Yelp.desktop': <{'position': <15>}>, 'update-manager.desktop': <{'position': <16>}>, 'htop.desktop': <{'position': <17>}>, 'display-im7.q16.desktop': <{'position': <18>}>, 'org.gnome.Logs.desktop': <{'position': <19>}>, 'desktop-security-center_desktop-security-center.desktop': <{'position': <20>}>, 'org.gnome.Sysprof.desktop': <{'position': <21>}>, 'org.gnome.Ptyxis.desktop': <{'position': <22>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <23>}>, 'libreoffice26.2-startcenter.desktop': <{'position': <24>}>, 'libreoffice26.2-base.desktop': <{'position': <25>}>, 'libreoffice26.2-calc.desktop': <{'position': <26>}>, 'libreoffice26.2-draw.desktop': <{'position': <27>}>, 'libreoffice26.2-impress.desktop': <{'position': <28>}>, 'libreoffice26.2-math.desktop': <{'position': <29>}>, 'libreoffice26.2-writer.desktop': <{'position': <30>}>, 'cmatrix.desktop': <{'position': <31>}>, 'firefox_firefox.desktop': <{'position': <32>}>}]
+org.gnome.shell command-history @as []
+org.gnome.shell development-tools true
+org.gnome.shell disable-extension-version-validation false
+org.gnome.shell disable-user-extensions false
+org.gnome.shell disabled-extensions ['ubuntu-dock@ubuntu.com', 'monitor-brightness-volume@ailin.nemui', 'brightness-control@rusnakdima.github.com', 'monitor-control@ahmed-shaalan', 'display-brightness-ddcutil@themightydeity.github.com', 'ddcutil-brightness-controller@user.local']
+org.gnome.shell enabled-extensions ['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'lockscreen-studio@pedro.projects', 'Vitals@CoreCoding.com', 'ding@rastersoft.com', 'tiling-assistant@ubuntu.com', 'gnome-ddc-brightness-contrast@leoleguizamon97.github.io', 'compiz-windows-effect@hermes83.github.com', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'ddcbrightness@lucaso.io']
+org.gnome.shell favorite-apps ['brave-browser.desktop', 'google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'antigravity.desktop', 'sublime_text.desktop', 'postman.desktop', 'org.gnome.Terminal.desktop', 'telegram-desktop_telegram-desktop.desktop', 'discord.desktop', 'org.gnome.TextEditor.desktop', 'mpv.desktop', 'vlc.desktop', 'com.abdownloadmanager.desktop', 'org.gnome.tweaks.desktop', 'net.nokyan.Resources.desktop', 'com.github.wwmm.easyeffects.desktop', 'org.qbittorrent.qBittorrent.desktop', 'winboat.desktop', 'anydesk.desktop']
+org.gnome.shell last-selected-power-profile 'performance'
+org.gnome.shell looking-glass-history @as []
+org.gnome.shell remember-mount-password false
+org.gnome.shell start-in-overview false
+org.gnome.shell welcome-dialog-last-shown-version '46.0'
+org.gnome.shell.app-switcher current-workspace-only false
+org.gnome.shell.extensions.appindicator compact-mode-enabled true
+org.gnome.shell.extensions.appindicator custom-icons @a(sss) []
+org.gnome.shell.extensions.appindicator icon-brightness 0.0
+org.gnome.shell.extensions.appindicator icon-contrast 0.0
+org.gnome.shell.extensions.appindicator icon-opacity 240
+org.gnome.shell.extensions.appindicator icon-saturation 0.0
+org.gnome.shell.extensions.appindicator icon-size 0
+org.gnome.shell.extensions.appindicator legacy-tray-enabled true
+org.gnome.shell.extensions.appindicator tray-order 1
+org.gnome.shell.extensions.appindicator tray-pos 'right'
+org.gnome.shell.extensions.dash-to-dock activate-single-window true
+org.gnome.shell.extensions.dash-to-dock always-center-icons false
+org.gnome.shell.extensions.dash-to-dock animation-time 0.20000000000000001
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-1 ['<Ctrl><Super>1']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-10 ['<Ctrl><Super>0']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-2 ['<Ctrl><Super>2']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-3 ['<Ctrl><Super>3']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-4 ['<Ctrl><Super>4']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-5 ['<Ctrl><Super>5']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-6 ['<Ctrl><Super>6']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-7 ['<Ctrl><Super>7']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-8 ['<Ctrl><Super>8']
+org.gnome.shell.extensions.dash-to-dock app-ctrl-hotkey-9 ['<Ctrl><Super>9']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-1 ['<Super>1']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-10 ['<Super>0']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-2 ['<Super>2']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-3 ['<Super>3']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-4 ['<Super>4']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-5 ['<Super>5']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-6 ['<Super>6']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-7 ['<Super>7']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-8 ['<Super>8']
+org.gnome.shell.extensions.dash-to-dock app-hotkey-9 ['<Super>9']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-1 ['<Shift><Super>1']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-10 ['<Shift><Super>0']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-2 ['<Shift><Super>2']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-3 ['<Shift><Super>3']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-4 ['<Shift><Super>4']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-5 ['<Shift><Super>5']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-6 ['<Shift><Super>6']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-7 ['<Shift><Super>7']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-8 ['<Shift><Super>8']
+org.gnome.shell.extensions.dash-to-dock app-shift-hotkey-9 ['<Shift><Super>9']
+org.gnome.shell.extensions.dash-to-dock application-counter-overrides-notifications true
+org.gnome.shell.extensions.dash-to-dock apply-custom-theme false
+org.gnome.shell.extensions.dash-to-dock apply-glossy-effect true
+org.gnome.shell.extensions.dash-to-dock autohide true
+org.gnome.shell.extensions.dash-to-dock autohide-in-fullscreen false
+org.gnome.shell.extensions.dash-to-dock background-color 'rgb(119,118,123)'
+org.gnome.shell.extensions.dash-to-dock background-opacity 0.029999999999999999
+org.gnome.shell.extensions.dash-to-dock bolt-support true
+org.gnome.shell.extensions.dash-to-dock click-action 'skip'
+org.gnome.shell.extensions.dash-to-dock custom-background-color false
+org.gnome.shell.extensions.dash-to-dock custom-theme-customize-running-dots false
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-color '#ffffff'
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-border-width 0
+org.gnome.shell.extensions.dash-to-dock custom-theme-running-dots-color '#ffffff'
+org.gnome.shell.extensions.dash-to-dock custom-theme-shrink true
+org.gnome.shell.extensions.dash-to-dock customize-alphas false
+org.gnome.shell.extensions.dash-to-dock dance-urgent-applications true
+org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 32
+org.gnome.shell.extensions.dash-to-dock default-windows-preview-to-open false
+org.gnome.shell.extensions.dash-to-dock disable-overview-on-startup true
+org.gnome.shell.extensions.dash-to-dock dock-fixed false
+org.gnome.shell.extensions.dash-to-dock dock-position 'BOTTOM'
+org.gnome.shell.extensions.dash-to-dock extend-height true
+org.gnome.shell.extensions.dash-to-dock force-straight-corner false
+org.gnome.shell.extensions.dash-to-dock height-fraction 0.90000000000000002
+org.gnome.shell.extensions.dash-to-dock hide-delay 0.20000000000000001
+org.gnome.shell.extensions.dash-to-dock hide-tooltip false
+org.gnome.shell.extensions.dash-to-dock hot-keys true
+org.gnome.shell.extensions.dash-to-dock hotkeys-overlay true
+org.gnome.shell.extensions.dash-to-dock hotkeys-show-dock true
+org.gnome.shell.extensions.dash-to-dock icon-size-fixed true
+org.gnome.shell.extensions.dash-to-dock intellihide true
+org.gnome.shell.extensions.dash-to-dock intellihide-mode 'ALL_WINDOWS'
+org.gnome.shell.extensions.dash-to-dock isolate-locations true
+org.gnome.shell.extensions.dash-to-dock isolate-monitors false
+org.gnome.shell.extensions.dash-to-dock isolate-workspaces false
+org.gnome.shell.extensions.dash-to-dock manualhide false
+org.gnome.shell.extensions.dash-to-dock max-alpha 0.80000000000000004
+org.gnome.shell.extensions.dash-to-dock middle-click-action 'launch'
+org.gnome.shell.extensions.dash-to-dock min-alpha 0.20000000000000001
+org.gnome.shell.extensions.dash-to-dock minimize-shift true
+org.gnome.shell.extensions.dash-to-dock multi-monitor false
+org.gnome.shell.extensions.dash-to-dock preferred-monitor -2
+org.gnome.shell.extensions.dash-to-dock preferred-monitor-by-connector 'HDMI-1'
+org.gnome.shell.extensions.dash-to-dock pressure-threshold 100.0
+org.gnome.shell.extensions.dash-to-dock preview-size-scale 0.0
+org.gnome.shell.extensions.dash-to-dock require-pressure-to-show true
+org.gnome.shell.extensions.dash-to-dock running-indicator-dominant-color false
+org.gnome.shell.extensions.dash-to-dock running-indicator-style 'DOTS'
+org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windows'
+org.gnome.shell.extensions.dash-to-dock scroll-switch-workspace true
+org.gnome.shell.extensions.dash-to-dock scroll-to-focused-application true
+org.gnome.shell.extensions.dash-to-dock shift-click-action 'launch'
+org.gnome.shell.extensions.dash-to-dock shift-middle-click-action 'minimize'
+org.gnome.shell.extensions.dash-to-dock shortcut ['<Super>q']
+org.gnome.shell.extensions.dash-to-dock shortcut-text '<Super>q'
+org.gnome.shell.extensions.dash-to-dock shortcut-timeout 2.0
+org.gnome.shell.extensions.dash-to-dock show-apps-always-in-the-edge true
+org.gnome.shell.extensions.dash-to-dock show-apps-at-top false
+org.gnome.shell.extensions.dash-to-dock show-delay 0.25
+org.gnome.shell.extensions.dash-to-dock show-dock-urgent-notify true
+org.gnome.shell.extensions.dash-to-dock show-favorites true
+org.gnome.shell.extensions.dash-to-dock show-icons-emblems true
+org.gnome.shell.extensions.dash-to-dock show-icons-notifications-counter true
+org.gnome.shell.extensions.dash-to-dock show-mounts false
+org.gnome.shell.extensions.dash-to-dock show-mounts-network true
+org.gnome.shell.extensions.dash-to-dock show-mounts-only-mounted false
+org.gnome.shell.extensions.dash-to-dock show-running true
+org.gnome.shell.extensions.dash-to-dock show-show-apps-button true
+org.gnome.shell.extensions.dash-to-dock show-trash true
+org.gnome.shell.extensions.dash-to-dock show-windows-preview true
+org.gnome.shell.extensions.dash-to-dock transparency-mode 'FIXED'
+org.gnome.shell.extensions.dash-to-dock unity-backlit-items false
+org.gnome.shell.extensions.dash-to-dock workspace-agnostic-urgent-windows true
+org.gnome.shell.extensions.ding add-volumes-opposite true
+org.gnome.shell.extensions.ding arrangeorder 'DESCENDINGNAME'
+org.gnome.shell.extensions.ding check-x11wayland true
+org.gnome.shell.extensions.ding dark-text-in-labels false
+org.gnome.shell.extensions.ding icon-size 'standard'
+org.gnome.shell.extensions.ding keep-arranged false
+org.gnome.shell.extensions.ding keep-stacked false
+org.gnome.shell.extensions.ding show-drop-place true
+org.gnome.shell.extensions.ding show-home true
+org.gnome.shell.extensions.ding show-link-emblem true
+org.gnome.shell.extensions.ding show-network-volumes false
+org.gnome.shell.extensions.ding show-trash false
+org.gnome.shell.extensions.ding show-volumes false
+org.gnome.shell.extensions.ding sort-special-folders false
+org.gnome.shell.extensions.ding start-corner 'bottom-right'
+org.gnome.shell.extensions.ding unstackedtypes @as []
+org.gnome.shell.extensions.ding use-nemo false
+org.gnome.shell.extensions.tiling-assistant activate-layout0 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout1 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout10 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout11 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout12 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout13 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout14 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout15 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout16 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout17 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout18 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout19 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout2 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout3 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout4 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout5 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout6 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout7 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout8 @as []
+org.gnome.shell.extensions.tiling-assistant activate-layout9 @as []
+org.gnome.shell.extensions.tiling-assistant adapt-edge-tiling-to-favorite-layout false
+org.gnome.shell.extensions.tiling-assistant auto-tile @as []
+org.gnome.shell.extensions.tiling-assistant center-window @as []
+org.gnome.shell.extensions.tiling-assistant debugging-free-rects @as []
+org.gnome.shell.extensions.tiling-assistant debugging-show-tiled-rects @as []
+org.gnome.shell.extensions.tiling-assistant default-move-mode 0
+org.gnome.shell.extensions.tiling-assistant disable-tile-groups false
+org.gnome.shell.extensions.tiling-assistant dynamic-keybinding-behavior 0
+org.gnome.shell.extensions.tiling-assistant enable-advanced-experimental-features false
+org.gnome.shell.extensions.tiling-assistant enable-hold-maximize-inverse-landscape false
+org.gnome.shell.extensions.tiling-assistant enable-hold-maximize-inverse-portrait false
+org.gnome.shell.extensions.tiling-assistant enable-raise-tile-group true
+org.gnome.shell.extensions.tiling-assistant enable-tile-animations true
+org.gnome.shell.extensions.tiling-assistant enable-tiling-popup true
+org.gnome.shell.extensions.tiling-assistant enable-untile-animations true
+org.gnome.shell.extensions.tiling-assistant favorite-layout -1
+org.gnome.shell.extensions.tiling-assistant favorite-layouts @as []
+org.gnome.shell.extensions.tiling-assistant focus-hint 0
+org.gnome.shell.extensions.tiling-assistant focus-hint-color 'rgb(237,91,0)'
+org.gnome.shell.extensions.tiling-assistant focus-hint-outline-border-radius 8
+org.gnome.shell.extensions.tiling-assistant focus-hint-outline-size 8
+org.gnome.shell.extensions.tiling-assistant focus-hint-outline-style 0
+org.gnome.shell.extensions.tiling-assistant horizontal-preview-area 15
+org.gnome.shell.extensions.tiling-assistant ignore-ta-mod 0
+org.gnome.shell.extensions.tiling-assistant import-layout-examples true
+org.gnome.shell.extensions.tiling-assistant last-version-installed 54
+org.gnome.shell.extensions.tiling-assistant low-performance-move-mode false
+org.gnome.shell.extensions.tiling-assistant maximize-with-gap false
+org.gnome.shell.extensions.tiling-assistant monitor-switch-grace-period true
+org.gnome.shell.extensions.tiling-assistant move-adaptive-tiling-mod 1
+org.gnome.shell.extensions.tiling-assistant move-favorite-layout-mod 2
+org.gnome.shell.extensions.tiling-assistant overridden-settings {'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+org.gnome.shell.extensions.tiling-assistant restore-window ['<Super>Down']
+org.gnome.shell.extensions.tiling-assistant screen-bottom-gap 0
+org.gnome.shell.extensions.tiling-assistant screen-left-gap 0
+org.gnome.shell.extensions.tiling-assistant screen-right-gap 0
+org.gnome.shell.extensions.tiling-assistant screen-top-gap 0
+org.gnome.shell.extensions.tiling-assistant search-popup-layout @as []
+org.gnome.shell.extensions.tiling-assistant show-layout-panel-indicator false
+org.gnome.shell.extensions.tiling-assistant single-screen-gap 0
+org.gnome.shell.extensions.tiling-assistant tile-bottom-half ['<Super>KP_2']
+org.gnome.shell.extensions.tiling-assistant tile-bottom-half-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-bottomleft-quarter ['<Super>KP_1']
+org.gnome.shell.extensions.tiling-assistant tile-bottomleft-quarter-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-bottomright-quarter ['<Super>KP_3']
+org.gnome.shell.extensions.tiling-assistant tile-bottomright-quarter-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-edit-mode @as []
+org.gnome.shell.extensions.tiling-assistant tile-left-half ['<Super>Left', '<Super>KP_4']
+org.gnome.shell.extensions.tiling-assistant tile-left-half-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-maximize ['<Super>Up', '<Super>KP_5']
+org.gnome.shell.extensions.tiling-assistant tile-maximize-horizontally @as []
+org.gnome.shell.extensions.tiling-assistant tile-maximize-vertically @as []
+org.gnome.shell.extensions.tiling-assistant tile-right-half ['<Super>Right', '<Super>KP_6']
+org.gnome.shell.extensions.tiling-assistant tile-right-half-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-top-half ['<Super>KP_8']
+org.gnome.shell.extensions.tiling-assistant tile-top-half-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-topleft-quarter ['<Super>KP_7']
+org.gnome.shell.extensions.tiling-assistant tile-topleft-quarter-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tile-topright-quarter ['<Super>KP_9']
+org.gnome.shell.extensions.tiling-assistant tile-topright-quarter-ignore-ta @as []
+org.gnome.shell.extensions.tiling-assistant tilegroups-in-app-switcher false
+org.gnome.shell.extensions.tiling-assistant tiling-popup-all-workspace true
+org.gnome.shell.extensions.tiling-assistant toggle-always-on-top @as []
+org.gnome.shell.extensions.tiling-assistant toggle-maximize-tophalf-timer 600
+org.gnome.shell.extensions.tiling-assistant toggle-tiling-popup @as []
+org.gnome.shell.extensions.tiling-assistant vertical-preview-area 15
+org.gnome.shell.extensions.tiling-assistant window-gap 0
+org.gnome.shell.keybindings focus-active-notification ['<Super>n']
+org.gnome.shell.keybindings open-new-window-application-1 ['<Super><Control>1']
+org.gnome.shell.keybindings open-new-window-application-2 ['<Super><Control>2']
+org.gnome.shell.keybindings open-new-window-application-3 ['<Super><Control>3']
+org.gnome.shell.keybindings open-new-window-application-4 ['<Super><Control>4']
+org.gnome.shell.keybindings open-new-window-application-5 ['<Super><Control>5']
+org.gnome.shell.keybindings open-new-window-application-6 ['<Super><Control>6']
+org.gnome.shell.keybindings open-new-window-application-7 ['<Super><Control>7']
+org.gnome.shell.keybindings open-new-window-application-8 ['<Super><Control>8']
+org.gnome.shell.keybindings open-new-window-application-9 ['<Super><Control>9']
+org.gnome.shell.keybindings screen-brightness-cycle ['XF86MonBrightnessCycle']
+org.gnome.shell.keybindings screen-brightness-cycle-monitor ['<Shift>XF86MonBrightnessCycle']
+org.gnome.shell.keybindings screen-brightness-down ['XF86MonBrightnessDown']
+org.gnome.shell.keybindings screen-brightness-down-monitor ['<Shift>XF86MonBrightnessDown']
+org.gnome.shell.keybindings screen-brightness-up ['XF86MonBrightnessUp']
+org.gnome.shell.keybindings screen-brightness-up-monitor ['<Shift>XF86MonBrightnessUp']
+org.gnome.shell.keybindings screenshot ['<Shift>Print']
+org.gnome.shell.keybindings screenshot-window ['<Alt>Print']
+org.gnome.shell.keybindings shift-overview-down ['<Super><Alt>Down']
+org.gnome.shell.keybindings shift-overview-up ['<Super><Alt>Up']
+org.gnome.shell.keybindings show-screen-recording-ui ['<Ctrl><Shift><Alt>R']
+org.gnome.shell.keybindings show-screenshot-ui ['<Shift><Super>s']
+org.gnome.shell.keybindings switch-to-application-1 ['<Super>1']
+org.gnome.shell.keybindings switch-to-application-2 ['<Super>2']
+org.gnome.shell.keybindings switch-to-application-3 ['<Super>3']
+org.gnome.shell.keybindings switch-to-application-4 ['<Super>4']
+org.gnome.shell.keybindings switch-to-application-5 ['<Super>5']
+org.gnome.shell.keybindings switch-to-application-6 ['<Super>6']
+org.gnome.shell.keybindings switch-to-application-7 ['<Super>7']
+org.gnome.shell.keybindings switch-to-application-8 ['<Super>8']
+org.gnome.shell.keybindings switch-to-application-9 ['<Super>9']
+org.gnome.shell.keybindings toggle-application-view ['<Super>a']
+org.gnome.shell.keybindings toggle-message-tray ['<Super>v', '<Super>m']
+org.gnome.shell.keybindings toggle-overview @as []
+org.gnome.shell.keybindings toggle-quick-settings ['<Super>s']
+org.gnome.shell.ubuntu color-scheme 'default'
+org.gnome.shell.ubuntu startup-sound 'warty-startup'
+org.gnome.shell.weather automatic-location false
+org.gnome.shell.weather locations @av []
+org.gnome.shell.window-switcher app-icon-mode 'both'
+org.gnome.shell.window-switcher current-workspace-only true
+org.gnome.shell.world-clocks locations @av []
+org.gnome.software allow-updates true
+org.gnome.software check-timestamp int64 1790340810
+org.gnome.software compatible-projects ['GNOME', 'KDE', 'XFCE']
+org.gnome.software download-updates true
+org.gnome.software download-updates-notify true
+org.gnome.software enable-repos-dialog true
+org.gnome.software external-appstream-system-wide false
+org.gnome.software external-appstream-urls @as []
+org.gnome.software filter-default-branch true
+org.gnome.software first-run false
+org.gnome.software flatpak-purge-timestamp int64 1789748634
+org.gnome.software free-repos ['ubuntu-*-main', 'ubuntu-*-universe']
+org.gnome.software free-repos-url 'https://www.ubuntu.com/about/about-ubuntu/licensing'
+org.gnome.software install-bundles-system-wide true
+org.gnome.software install-timestamp int64 0
+org.gnome.software installed-page-show-size true
+org.gnome.software nonfree-software-uri 'https://en.wikipedia.org/wiki/Proprietary_software'
+org.gnome.software official-repos ['ubuntu-*']
+org.gnome.software packagekit-historical-updates-timestamp uint64 1784711611
+org.gnome.software packaging-format-preference ['']
+org.gnome.software prompt-for-nonfree true
+org.gnome.software refresh-when-metered false
+org.gnome.software required-repos @as []
+org.gnome.software review-karma-required 0
+org.gnome.software review-server 'https://odrs.gnome.org/1.0/reviews/api'
+org.gnome.software screenshot-cache-age-maximum uint32 2592000
+org.gnome.software security-timestamp int64 0
+org.gnome.software show-nonfree-ui true
+org.gnome.software show-only-free-apps false
+org.gnome.software show-only-verified-apps false
+org.gnome.software show-ratings false
+org.gnome.software show-upgrade-prerelease false
+org.gnome.software update-notification-timestamp int64 1787147720
+org.gnome.software upgrade-notification-timestamp int64 0
+org.gnome.software.auth account-id ''
+org.gnome.system.dns_sd display-local 'merged'
+org.gnome.system.dns_sd extra-domains ''
+org.gnome.system.locale region ''
+org.gnome.system.location enabled false
+org.gnome.system.location max-accuracy-level 'exact'
+org.gnome.system.proxy autoconfig-url ''
+org.gnome.system.proxy ignore-hosts ['localhost', '127.0.0.0/8', '::1']
+org.gnome.system.proxy mode 'auto'
+org.gnome.system.proxy use-same-proxy true
+org.gnome.system.proxy.ftp host ''
+org.gnome.system.proxy.ftp port 0
+org.gnome.system.proxy.http authentication-password ''
+org.gnome.system.proxy.http authentication-user ''
+org.gnome.system.proxy.http enabled false
+org.gnome.system.proxy.http host ''
+org.gnome.system.proxy.http port 8080
+org.gnome.system.proxy.http use-authentication false
+org.gnome.system.proxy.https host ''
+org.gnome.system.proxy.https port 0
+org.gnome.system.proxy.socks host ''
+org.gnome.system.proxy.socks port 0
+org.gnome.system.smb display-mode 'disabled'
+org.gnome.system.smb workgroup ''
+org.gnome.system.wsdd display-mode 'merged'
+org.gnome.tweaks show-extensions-notice false
+org.gnome.yelp show-cursor false
+org.gnome.yelp zoom-level 1.0
+org.gtk.Settings.ColorChooser custom-colors [(0.090196078431372562, 0.078431372549019607, 0.12941176470588237, 1.0), (0.090196078431372548, 0.078431372549019607, 0.12941176470588237, 1.0)]
+org.gtk.Settings.ColorChooser selected-color (true, 0.090196078431372562, 0.078431372549019607, 0.12941176470588237, 1.0)
+org.gtk.Settings.Debug enable-inspector-keybinding false
+org.gtk.Settings.Debug inspector-warning true
+org.gtk.Settings.EmojiChooser recent-emoji @a((auss)u) []
+org.gtk.Settings.FileChooser clock-format '12h'
+org.gtk.Settings.FileChooser date-format 'regular'
+org.gtk.Settings.FileChooser expand-folders false
+org.gtk.Settings.FileChooser last-folder-uri ''
+org.gtk.Settings.FileChooser location-mode 'path-bar'
+org.gtk.Settings.FileChooser show-hidden false
+org.gtk.Settings.FileChooser show-size-column true
+org.gtk.Settings.FileChooser show-type-column true
+org.gtk.Settings.FileChooser sidebar-width 160
+org.gtk.Settings.FileChooser sort-column 'modified'
+org.gtk.Settings.FileChooser sort-directories-first true
+org.gtk.Settings.FileChooser sort-order 'ascending'
+org.gtk.Settings.FileChooser startup-mode 'cwd'
+org.gtk.Settings.FileChooser type-format 'category'
+org.gtk.Settings.FileChooser window-position (26, 23)
+org.gtk.Settings.FileChooser window-size (1203, 902)
+org.gtk.gtk4.Inspector.Recorder dark false
+org.gtk.gtk4.Inspector.Recorder debug-nodes false
+org.gtk.gtk4.Inspector.Recorder highlight-sequences false
+org.gtk.gtk4.Inspector.Recorder record-events false
+org.gtk.gtk4.Settings.ColorChooser custom-colors @a(dddd) []
+org.gtk.gtk4.Settings.ColorChooser selected-color (true, 0.87843137979507446, 0.10588235408067703, 0.14117647707462311, 1.0)
+org.gtk.gtk4.Settings.Debug enable-inspector-keybinding true
+org.gtk.gtk4.Settings.Debug inspector-warning true
+org.gtk.gtk4.Settings.EmojiChooser recently-used-emoji @a((aussasasu)u) []
+org.gtk.gtk4.Settings.FileChooser clock-format '24h'
+org.gtk.gtk4.Settings.FileChooser date-format 'regular'
+org.gtk.gtk4.Settings.FileChooser expand-folders false
+org.gtk.gtk4.Settings.FileChooser location-mode 'path-bar'
+org.gtk.gtk4.Settings.FileChooser show-hidden true
+org.gtk.gtk4.Settings.FileChooser show-size-column true
+org.gtk.gtk4.Settings.FileChooser show-type-column true
+org.gtk.gtk4.Settings.FileChooser sidebar-width 140
+org.gtk.gtk4.Settings.FileChooser sort-column 'name'
+org.gtk.gtk4.Settings.FileChooser sort-directories-first true
+org.gtk.gtk4.Settings.FileChooser sort-order 'descending'
+org.gtk.gtk4.Settings.FileChooser startup-mode 'recent'
+org.gtk.gtk4.Settings.FileChooser type-format 'category'
+org.gtk.gtk4.Settings.FileChooser view-type 'list'
+org.gtk.gtk4.Settings.FileChooser window-position (-1, -1)
+org.gtk.gtk4.Settings.FileChooser window-size (819, 372)
+=== EXTENSIONS ===
+blur-my-shell@aunetx
+dash-to-dock@micxgx.gmail.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+compiz-alike-magic-lamp-effect@hermes83.github.com
+Vitals@CoreCoding.com
+compiz-windows-effect@hermes83.github.com
+ddcbrightness@lucaso.io
+ding@rastersoft.com
+snapd-prompting@canonical.com
+snapd-search-provider@canonical.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+ubuntu-dock@ubuntu.com
+web-search-provider@ubuntu.com
+=== ENABLED EXTENSIONS ===
+blur-my-shell@aunetx
+dash-to-dock@micxgx.gmail.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+compiz-alike-magic-lamp-effect@hermes83.github.com
+Vitals@CoreCoding.com
+compiz-windows-effect@hermes83.github.com
+ddcbrightness@lucaso.io
+ding@rastersoft.com
+snapd-prompting@canonical.com
+snapd-search-provider@canonical.com
+tiling-assistant@ubuntu.com
+ubuntu-appindicators@ubuntu.com
+web-search-provider@ubuntu.com

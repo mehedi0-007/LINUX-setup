@@ -1,0 +1,128 @@
+===== blur-my-shell@aunetx =====
+blur-my-shell@aunetx
+  Name: Blur my Shell
+  Description: Adds a blur look to different parts of the GNOME Shell, including the top panel, dash and overview.
+
+You can support my work by sponsoring me on:
+- github: https://github.com/sponsors/aunetx
+- ko-fi: https://ko-fi.com/aunetx
+
+If you use Ubuntu, you may want to change the radius of the corner effect for Dash-to-Dock in preferences, else you may see unpleasantly mixed radii in your dock.
+
+Note: if the extension shows an error after updating, please make sure to restart your session to see if it persists. This is due to a bug in gnome shell, which I can't fix by myself.
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/blur-my-shell@aunetx
+  URL: https://github.com/aunetx/blur-my-shell
+  Version: 72
+  Enabled: Yes
+  State: ACTIVE
+===== dash-to-dock@micxgx.gmail.com =====
+dash-to-dock@micxgx.gmail.com
+  Name: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Original author: micxgx@gmail.com
+  Version: 108
+  Enabled: Yes
+  State: ACTIVE
+===== user-theme@gnome-shell-extensions.gcampax.github.com =====
+user-theme@gnome-shell-extensions.gcampax.github.com
+  Name: User Themes
+  Description: Load shell themes from user directory.
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  Version: 50.4 (79)
+  Enabled: Yes
+  State: ACTIVE
+===== compiz-alike-magic-lamp-effect@hermes83.github.com =====
+compiz-alike-magic-lamp-effect@hermes83.github.com
+  Name: Compiz alike magic lamp effect
+  Description: Magic lamp effect inspired by the Compiz ones
+
+NB:
+In case of update error please restart Gnome Shell (on Xorg press ALT+F2 then write r and press enter, on Wayland end the session and log in again)
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/compiz-alike-magic-lamp-effect@hermes83.github.com
+  URL: https://github.com/hermes83/compiz-alike-magic-lamp-effect
+  Version: 24
+  Enabled: Yes
+  State: ACTIVE
+===== Vitals@CoreCoding.com =====
+Vitals@CoreCoding.com
+  Name: Vitals
+  Description: A glimpse into your computer's temperature, voltage, fan speed, memory usage, processor load, system resources, network speed and storage stats. This is a one stop shop to monitor all of your vital sensors. Uses asynchronous polling to provide a smooth user experience. Feature requests or bugs? Please use GitHub.
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/Vitals@CoreCoding.com
+  URL: https://github.com/corecoding/Vitals
+  Version: 85
+  Enabled: Yes
+  State: ACTIVE
+===== compiz-windows-effect@hermes83.github.com =====
+compiz-windows-effect@hermes83.github.com
+  Name: Compiz windows effect
+  Description: Compiz wobbly windows effect
+
+-----------------------------------
+Video
+-----------------------------------
+https://youtu.be/G8bAVIB9A7A
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/compiz-windows-effect@hermes83.github.com
+  URL: https://github.com/hermes83/compiz-windows-effect
+  Version: 31
+  Enabled: Yes
+  State: ACTIVE
+===== ddcbrightness@lucaso.io =====
+ddcbrightness@lucaso.io
+  Name: DDC Brightness Controller
+  Description: Control display brightness via DDC/CI using ddcutil. Bind keyboard shortcuts or use the panel menu to adjust monitor brightness.
+  Path: /home/mehedi-hassan/.local/share/gnome-shell/extensions/ddcbrightness@lucaso.io
+  URL: https://github.com/lucasoskorep/ddc-brightness-control
+  Version: 1
+  Enabled: Yes
+  State: ACTIVE
+===== ding@rastersoft.com =====
+ding@rastersoft.com
+  Name: Desktop Icons NG (DING)
+  Description: Adds icons to the desktop. Fork of the original Desktop Icons extension, with several enhancements .
+  Path: /usr/share/gnome-shell/extensions/ding@rastersoft.com
+  URL: https://gitlab.com/rastersoft/desktop-icons-ng
+  Enabled: Yes
+  State: ACTIVE
+===== snapd-prompting@canonical.com =====
+snapd-prompting@canonical.com
+  Name: SNAPD Permission Prompting
+  Description: A GNOME Shell extension to make the SNAPD prompts to be properly integrated
+  Path: /usr/share/gnome-shell/extensions/snapd-prompting@canonical.com
+  Enabled: Yes
+  State: ACTIVE
+===== snapd-search-provider@canonical.com =====
+snapd-search-provider@canonical.com
+  Name: Snapd Search Provider
+  Description: A search provider for GNOME shell to search into installable snaps
+  Path: /usr/share/gnome-shell/extensions/snapd-search-provider@canonical.com
+  URL: https://gitlab.gnome.org/Community/Ubuntu/gnome-shell-snapd-search-provider
+  Enabled: Yes
+  State: ACTIVE
+===== tiling-assistant@ubuntu.com =====
+tiling-assistant@ubuntu.com
+  Name: Ubuntu Tiling Assistant
+  Description: Expand GNOME's 2 column tiling and add a Windows-snap-assist-inspired popup...
+  Path: /usr/share/gnome-shell/extensions/tiling-assistant@ubuntu.com
+  URL: https://launchpad.net/ubuntu/+source/gnome-shell-extension-tiling-assistant
+  Version: 54
+  Enabled: Yes
+  State: ACTIVE
+===== ubuntu-appindicators@ubuntu.com =====
+ubuntu-appindicators@ubuntu.com
+  Name: Ubuntu AppIndicators
+  Description: Support app indicators and legacy tray icons in top panel, as the default Ubuntu experience. System update of AppIndicator and KStatusNotifierItem Support extension.
+  Path: /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com
+  URL: https://github.com/ubuntu/gnome-shell-extension-appindicator
+  Enabled: Yes
+  State: ACTIVE
+===== web-search-provider@ubuntu.com =====
+web-search-provider@ubuntu.com
+  Name: Web Search Provider
+  Description: Add ability to search the web
+  Path: /usr/share/gnome-shell/extensions/web-search-provider@ubuntu.com
+  URL: https://gitlab.gnome.org/Community/Ubuntu/gnome-shell-web-search-provider
+  Enabled: Yes
+  State: ACTIVE

@@ -1,0 +1,4 @@
+[/]
+brightness-down=['<Alt><Shift>F1']
+brightness-up=['<Alt><Shift>F2']
+link-displays=true

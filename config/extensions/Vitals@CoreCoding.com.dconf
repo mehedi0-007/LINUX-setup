@@ -1,0 +1,5 @@
+[/]
+hot-sensors=['_memory_usage_', '_processor_usage_', '__network-rx_max__']
+icon-style=1
+position-in-panel=1
+update-time=1

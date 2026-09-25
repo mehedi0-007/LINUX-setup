@@ -1,0 +1,20 @@
+=== NODE ===
+v24.17.0
+11.13.0
+=== PYTHON ===
+Python 3.14.4
+=== GIT ===
+git version 2.53.0
+=== DOCKER ===
+Docker version 29.6.2, build dfc4efb
+Docker Compose version v5.3.1
+=== CODE ===
+1.138.0
+7debcd0e2acdea1c52de81bf9ee1620444407dda
+x64
+=== GCC ===
+gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+=== G++ ===
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+=== MAKE ===
+GNU Make 4.4.1
